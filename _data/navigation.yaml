@@ -1,0 +1,12 @@
+primary:
+  links:
+    - title: about
+      href: /about/
+    - title: ask the historian
+      href: /ask-the-historian/
+    - title: collection days
+      href: /collection-days/
+secondary:
+  links:
+    - title: all stories
+      href: /stories/

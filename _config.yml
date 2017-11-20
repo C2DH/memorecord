@@ -1,1 +1,8 @@
-theme: jekyll-theme-cayman
+theme: minima
+default_lang: en
+languages: ["en", "fr", "pt"]
+excerpt_separator: '<!-- more -->'
+
+permalink: /:lang/:title.html
+
+title: memorecord
