@@ -1,6 +1,6 @@
 <div class="container">
   <nav class="navbar navbar-light bg-faded">
-      <a class="navbar-brand{% if page.link == "/" %} active{% endif %}"  {% if page.lang == site.default_lang %} href='/' {% else %} href="/{{page.lang}}" {% endif %}>{{site.title}}</a>
+      <a class="navbar-brand{% if page.link == "/" %} active{% endif %}"  {% if page.lang == site.default_lang %} href='/' {% else %} href="{{page.lang | absolute_url}}" {% endif %}>{{site.title}}</a>
     
 
     
@@ -8,14 +8,14 @@
     {% for link in site.data.navigation.primary.links %}
       
 
-      <li {% if page.link == link.href %}class='active'{% endif %}><a {% if page.lang == site.default_lang %} href='{{link.href}}' {% else %} href='/{{page.lang}}{{link.href}}'{% endif %}>{% assign key=link.title%}{% include t.html %}</a></li>
+      <li {% if page.link == link.href %}class='active'{% endif %}><a {% if page.lang == site.default_lang %} href='{{link.href | absolute_url}}' {% else %} href='{{page.lang | absolute_url}}{{link.href}}'{% endif %}>{% assign key=link.title%}{% include t.html %}</a></li>
 
       
     {% endfor %}
   </ul>
     <div>
       {% for lang in site.languages %}
-        <a {% if lang == page.lang %}class='active'{% endif %} {% if lang == site.default_lang %} href='{{page.link}}' {% else %} href='/{{lang}}{{page.link}}' {% endif %}>{{lang}}</a>
+        <a {% if lang == page.lang %}class='active'{% endif %} {% if lang == site.default_lang %} href='{{page.link | absolute_url}}' {% else %} href='{{lang | absolute_url}}{{page.link}}' {% endif %}>{{lang}}</a>
       {% endfor %}
     </div>
   </nav>

@@ -4,5 +4,4 @@ languages: ["en", "fr", "pt"]
 excerpt_separator: '<!-- more -->'
 
 permalink: /:lang/:title.html
-
 title: memorecord

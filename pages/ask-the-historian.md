@@ -6,6 +6,6 @@ link: /ask-the-historian/
 title: Ask the historian!
 ---
 
-Ask the historian. Brief, very big sentence en FR.
+Ask the historian. Brief, very big sentence en EN.
 <!-- more -->
 en plus...
