@@ -10,6 +10,7 @@ Luxembourg is  pot where more than 170 nationalities come together. Event If you
 If you feel like sharing it face-to-face or if you have pictures, old documents and objects that you would like to add to your story, join one of the Exchange & Collection Days with Memocord 2.0: 
 
 Day 1: Welcome, xx/xx/xxxx
+[testo link](http://)
 
 Day 2: Cuisine du Monde, xx/xx/xxxx
 
