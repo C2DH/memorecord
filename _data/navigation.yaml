@@ -2,12 +2,12 @@ primary:
   links:
     - title: The project
       href: /the-project/
-    - title: Ask the historian
-      href: /ask-the-historian/
-    - title: Collection days
-      href: /collection-days/
     - title: Take part!
       href: /take-part/
+    - title: Collection days
+      href: /collection-days/
+    - title: Ask the historian
+      href: /ask-the-historian/
   
 secondary:
   links:
