@@ -15,5 +15,7 @@ The goal of this experiment is bringing together **community participation and a
 Ideally, this crowdsourcing experiment will result in an original collection which will be the basis for Anita's PhD research. The expectation is to find as much as stories as possible, adding different voices and experiences to the primary material that Anita will analyze in her doctoral thesis. 
 
 Would you like to help Anita on building this collection? Learn how to participate here **insert link**. 
+
 <!-- more -->
+
 *Note: the official crowdsourcing experiment might last until 30 June 2018 because, as it is part of an on going PhD research, at a certain point it will have to have an end. Anyway, the hashtag is public and there is absolutely no problem if there is spontaneous use of it, as many things on the web, it may have a natural continuity. 
