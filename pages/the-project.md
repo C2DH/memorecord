@@ -16,9 +16,9 @@ Ideally, this crowdsourcing experiment will result in an original collection whi
 
 Would you like to help Anita on building this collection? Learn how to participate here **insert link**. 
 
-<!-- more -->
-
 *Note: the official crowdsourcing experiment might last until 30 June 2018 because, as it is part of an on going PhD research, at a certain point it will have to have an end. Anyway, the hashtag is public and there is absolutely no problem if there is spontaneous use of it, as many things on the web, it may have a natural continuity. 
+
+<!-- more -->
 
 ## Academic background
 
