@@ -20,7 +20,7 @@ Would you like to help Anita on building this collection? Learn how to participa
 
 *Note: the official crowdsourcing experiment might last until 30 June 2018 because, as it is part of an on going PhD research, at a certain point it will have to have an end. Anyway, the hashtag is public and there is absolutely no problem if there is spontaneous use of it, as many things on the web, it may have a natural continuity. 
 
-##Academic background
+## Academic background
 
 This website is part of the PhD research project entitled *Shaping a digital memory platform on migration narratives: A public history project on migration memories in Luxembourg*, conducted by Anita Lucchesi in the **Center for Contemporary and Digital History** (University of Luxembourg), and funded by the  National Research Fund, Luxembourg.
 
