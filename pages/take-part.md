@@ -35,7 +35,7 @@ Facebook: facebook.com/memorecord
 
 And, of course, you can also submit your content to the theme of the week per e-mail: memorecord@uni.lu.
 
-##Why your participation matters?
+## Why your participation matters?
 
 This project has one big question as its North: What is behind and beyond the successful story of migration in Luxembourg?
 
