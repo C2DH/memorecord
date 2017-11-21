@@ -1,10 +1,10 @@
 primary:
   links:
-    - title: about
-      href: /about/
-    - title: ask the historian
+    - title: The Project
+      href: /project/
+    - title: Ask the historian
       href: /ask-the-historian/
-    - title: collection days
+    - title: Collection days
       href: /collection-days/
     - title: Anita
       href: /anita/
