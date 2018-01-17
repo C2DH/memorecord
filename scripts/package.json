@@ -4,6 +4,7 @@
   "description": "A few scripts to handle _data section",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Daniele Guido - C2DH",

@@ -5,4 +5,4 @@ excerpt_separator: '<!-- more -->'
 
 permalink: /:lang/:title.html
 title: memorecord
-exclude: scripts
+exclude: [scripts]

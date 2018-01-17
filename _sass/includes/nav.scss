@@ -47,6 +47,9 @@
   }
   &:hover{
     border-color: $grey-on-yellow;
+    a {
+      color: $black;
+    }
   }
   &.active {
     border-color: $black;

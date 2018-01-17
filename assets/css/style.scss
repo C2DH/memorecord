@@ -5,7 +5,7 @@ $black: #151515;
 $almost-black: #1C090B;
 $light-grey: #1C090B;
 $yellow: #FAF54F;
-$grey-on-yellow: #a09470;
+$grey-on-yellow: grey;
 $almost-white: #FCF4D9;
 $devil-red: #F98375;
 $white: #ffffff;
@@ -19,50 +19,6 @@ body{
   font-family: 'Work Sans', sans-serif;
 }
 
-video.video-background {
-  position: absolute;   
-  height: auto;
-  min-height: 100%;
-  // width: 200%; 
-  // left: -50%;
-}
-
-.fullsized{
-  height: 99%;
-  position: relative;
-  background-color: white;
-  
-  &.first{
-    margin-top: 2.5rem;
-  }
-
-  
-
-
-  & > .left, & > .right{
-    position: absolute;
-    height: 100%;
-    width: 50%;
-    overflow:hidden;
-
-  }
-  & > .right{
-    left: 50%;
-    
-  }
-
-  // & > .left{
-  //   video{
-  //     height: auto;
-  //     width: 200%;
-  //   }
-  // }
-  &.opposite{
-    background: #141516;
-  
-    color: white;
-  }
-}
 
 .excerpt, .contents{
 
@@ -101,10 +57,7 @@ video.video-background {
   }
 }
 
-footer{
-  color: grey;
-  margin-top: 4rem;
-}
+
 
 
 li.active a, a.active{
@@ -117,7 +70,7 @@ a{
 }
 
 @import "layouts/page", "layouts/index";
-@import "includes/nav", "includes/footer";
+@import "includes/nav", "includes/social-media", "includes/footer";
 
 
 @media (min-width: 1200px) {

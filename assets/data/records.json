@@ -1,6 +1,10 @@
 ---
 # json otuput for the weekly tags...
 ---
+{% capture nl %}
+{% endcapture %}
 [
-  {% for lang in site.languages%}"{{lang}}"{%unless forloop.last %},{% endunless%}{% endfor %}
+  {% for doc in site.data.documents%}{
+    "description": "{{doc.description | split: '"' | join: '\"' | replace: nl, '\\n' }}"
+  }{%unless forloop.last %},{% endunless%}{% endfor %}
 ]
