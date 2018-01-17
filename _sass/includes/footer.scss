@@ -1,0 +1,54 @@
+footer{
+  background-color: #f0f0f0;
+  padding: 1rem 0;
+
+  .col-md{
+    padding-top: 1rem
+  }
+
+ a {
+    color: $black;
+    border-bottom: 2px solid $black;
+    
+    &:hover{
+      color: $black;
+      border-bottom-color: transparent ;
+      text-decoration: none;
+    }
+  }
+
+  ul.nav{
+    &.flex-row > li > a.nav-link{
+      margin-right: 1em;
+    }
+    & > li {
+      &.active > a.nav-link{
+        background-color: $yellow;
+        border-color: transparent;
+      }
+      & > a.nav-link{
+        border-color: transparent;
+        display: inline-block;
+        padding: 0;
+
+        &:hover{
+          border-color: $black;
+        }
+      }
+    }
+  }
+
+  label{
+    
+  }
+}
+
+@media (min-width: 768px){
+  footer{
+    padding: 2.5rem 0;
+
+    .col-md{
+      padding-top: 0rem
+    }
+  }  
+}

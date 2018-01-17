@@ -7,6 +7,7 @@ $light-grey: #1C090B;
 $yellow: #FAF54F;
 $grey-on-yellow: #a09470;
 $almost-white: #FCF4D9;
+$devil-red: #F98375;
 $white: #ffffff;
 
 html, body{
@@ -115,8 +116,8 @@ a{
 
 }
 
-@import "layouts/page", "layouts/index";//, "layouts/unit"; ;
-@import "includes/nav";//, "layouts/unit"; ;
+@import "layouts/page", "layouts/index";
+@import "includes/nav", "includes/footer";
 
 
 @media (min-width: 1200px) {
