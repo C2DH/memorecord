@@ -1,7 +1,7 @@
 ---
 layout: page
-lang: en
-permalink: /take-part/
+lang: fr
+permalink: /fr/take-part/
 link: /take-part/
 title: Take part!
 ---

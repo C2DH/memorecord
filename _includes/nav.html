@@ -1,5 +1,64 @@
-<div class="container">
-  <nav class="navbar navbar-light bg-faded">
+
+  <nav class="navbar fixed-top absolute-top navbar-expand-lg navbar-light navbar-primary">
+    <div class="container">
+    <div class="collapse navbar-collapse">
+      <a class="navbar-brand" style='margin-right: 0'>
+       <img style='height:60px' src='{{ "assets/images/unilu-logo.png" | relative_url}}' alt='University of Luxembourg'>
+      </a>
+      <a class="navbar-brand" href="{{'/' | absolute_url}}">
+        <img src='{{ "assets/images/memorecord-logo.png" | relative_url}}' alt='{{site.title}}'>
+      </a>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        {% for link in site.data.navigation.primary.links %}
+        <li class='nav-item {% if page.link == link.href %} active {% endif %}'>
+          <a class="nav-link" 
+            {% if page.lang == site.default_lang %} 
+              href='{{link.href | absolute_url}}' 
+            {% else %} 
+              href='{{page.lang | absolute_url}}{{link.href}}'
+            {% endif %}>{% assign key=link.title%}{% include t.html %}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      
+      <ul class="navbar-nav">
+        <li class="nav-item logo-wrapper">
+          <a href='https://c2dh.uni.lu'><img src='{{ "assets/images/c2dh-logo.png" | relative_url}}' alt='a C2DH production'></a>
+        </li>
+      </ul>
+    </div>
+    
+    </div>
+
+  </nav>
+
+  <nav class="navbar fixed-top absolute-top navbar-expand-lg navbar-light navbar-secondary" style=''>
+    <div class="container">
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav" style='background: #f0f0f0'>
+        {% for link in site.data.navigation.secondary.links %}
+        <li class='nav-item {% if page.link == link.href %} active {% endif %}'>
+          <a class="nav-link" 
+            {% if page.lang == site.default_lang %} 
+              href='{{link.href | absolute_url}}' 
+            {% else %} 
+              href='{{page.lang | absolute_url}}{{link.href}}'
+            {% endif %}>{% assign key=link.title%}{% include t.html %}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      <ul class="navbar-nav" style='background: #fafafa; margin-left: 2px;'>
+        {% for lang in site.languages %}
+        <li class="nav-item {% if lang == page.lang %} active {% endif %}">
+          <a class="nav-link" {% if lang == site.default_lang %} href='{{page.link | absolute_url}}' {% else %} href='{{lang | absolute_url}}{{page.link}}' {% endif %}>{{lang}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+  <!-- <nav class="navbar navbar-fixed navbar-light bg-faded">
       <a class="navbar-brand{% if page.link == "/" %} active{% endif %}"  {% if page.lang == site.default_lang %} href='/' {% else %} href="{{page.lang | absolute_url}}/" {% endif %}>{{site.title}}</a>
     
 
@@ -18,7 +77,5 @@
         <a {% if lang == page.lang %}class='active'{% endif %} {% if lang == site.default_lang %} href='{{page.link | absolute_url}}' {% else %} href='{{lang | absolute_url}}{{page.link}}' {% endif %}>{{lang}}</a>
       {% endfor %}
     </div>
-  </nav>
+  </nav> -->
   
-
-</div>

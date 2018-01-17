@@ -1,9 +1,9 @@
 ---
 layout: page
-lang: en
-permalink: /the-project/
+lang: fr
+permalink: /fr/the-project/
 link: /the-project/
-title: The project
+title: Le projet
 ---
 
 

@@ -1,16 +1,28 @@
-home:
-  en: index
+index:
+  en: home
   fr: accueil
-  pt: casa
+  pt: começo
+the project:
+  en: the project
+  fr: le projet
+  pt: o projeto
+take part:
+  en: take part
+  fr: participer
+  pt: participar
 ask the historian:
   en: ask the historian
   fr: demande à l'historien
-  pt: "?"
+  pt: preguntar ao historiador
 collection days:
   en: collection days
-  fr: jous de collecion
-  pt: "?"
-all stories:
-  en: all stories
-  fr: voir memoires
-  pt: "?"
+  fr: jour de recolte
+  pt: dia de collecta
+the stories:
+  en: read stories
+  fr: lire les histoires
+  pt: ler històrias
+privacy:
+  en: privacy
+  fr: confidentialité des données
+  pt: privacidade

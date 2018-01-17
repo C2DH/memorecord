@@ -1,15 +1,19 @@
 primary:
   links:
-    - title: The project
+    - title: index
+      href: /
+    - title: the project
       href: /the-project/
-    - title: Take part!
-      href: /take-part/
-    - title: Collection days
-      href: /collection-days/
-    - title: Ask the historian
-      href: /ask-the-historian/
-  
+    - title: the stories
+      href: /stories/
+    
 secondary:
   links:
-    - title: all stories
-      href: /stories/
+    - title: take part
+      href: /take-part/
+    - title: collection days
+      href: /collection-days/
+    - title: ask the historian
+      href: /ask-the-historian/
+    - title: privacy
+      href: /privacy/

@@ -1,0 +1,20 @@
+{
+  "name": "memorecord-scripts",
+  "version": "1.0.0",
+  "description": "A few scripts to handle _data section",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniele Guido - C2DH",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "cli-color": "^1.2.0",
+    "diskdb": "^0.1.17",
+    "google-spreadsheet-to-json": "^1.0.0",
+    "nested-structure": "^2.1.0",
+    "request": "^2.83.0",
+    "yamljs": "^0.3.0"
+  }
+}
