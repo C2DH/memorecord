@@ -26,8 +26,21 @@ privacy:
   en: privacy
   fr: confidentialité des données
   pt: privacidade
-
 languages:
   en: languages
   fr: languages
   pt: languages
+headlines:
+  -
+    en: is aimed at collecting personal stories
+    fr: blobobo 1
+    pt: lalalal ler històrias
+  -
+    en: is aimed at collecting personal memories about migration in Luxembourg
+    fr: blobobo 2
+    pt: lalalal ler històrias
+  -
+    en: is a simple tag
+    fr: blobobo 3
+    pt: lalalal ler històrias
+

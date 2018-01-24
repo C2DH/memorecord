@@ -20,7 +20,10 @@ layout: default
           <h1 class='headline'>
             <span >
               <b>Memorecord</b>
-              <span href="" class="typewrite" data-period="2000" data-type='[ "is aimed at collecting personal stories", "is aimed at collecting personal memories about migration in Luxembourg", "is a simple tag" ]'><span class="wrap"></span></span>
+              
+              <span href="" class="typewrite" data-period="2000" data-type='[ {% for headline in site.data.i18n.headlines  %}
+                "{{ headline[page.lang] }}"{%unless forloop.last %},{% endunless%}
+              {% endfor %} ]'><span class="wrap"></span></span>
             </span></h1>
 
           <div class="excerpt"><span style='background-color: white'>{{paragraphs[0]}}</span></div>
