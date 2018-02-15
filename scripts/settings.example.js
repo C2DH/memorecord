@@ -14,6 +14,13 @@ module.exports = {
       path: '../_data/documents.yaml'
     }
   },
+  jimp:{
+    thumbnails:{
+      path: '../assets/images/thumbnails/',
+      height: 24,
+      width: 24
+    }
+  },
   contents: {
     path: './__contents'
   }

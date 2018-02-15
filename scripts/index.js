@@ -27,6 +27,8 @@ const _cy = clc.cyanBright,
       _gr = clc.greenBright.bold;
 
 
+
+
 async.waterfall([
 
   // load data from spreadsheet.
@@ -62,6 +64,7 @@ async.waterfall([
     
     results
       .map(d => {
+        // console.log(d)
         let _d = {
           uid: d.uid || d.id,
           description: d.caption || d.description,
@@ -69,6 +72,17 @@ async.waterfall([
           url: d.url
         };
 
+        // add geometry if there is a valid lat and lon
+        if(d.lat){
+          _d.geometry = {
+            "type": "Point",
+            "coordinates": [
+              d.lng,
+              d.lat
+            ]
+          };
+        }
+        
         // clean url
         if(d.url && d.url.length) {
           _d.url = d.url.trim();
@@ -95,107 +109,9 @@ async.waterfall([
           })
         }
       });
-    setImmediate(next);
+    next(null, results);
+    // setImmediate(next);
   },
-
-  // (next) => {
-  //   c++;
-  //   return;
-  //   todos = db.records.find().filter(d => d.url && !d._resolved);
-
-  //   console.log(_cy(c, '.'), _bl('resolve url (if it is not done yet)'));
-  //   console.log(_bl('      - n. records todo:'), todos.length);
-      
-  //   let q = async.queue((record, callback) => {
-  //       record.data = {}
-  //       console.log(_bl('    type:'),_ye(record.type),_bl('- url:'), record.url);
-
-  //       if(record.type == 'video') {
-          
-        
-  //         // youtube video or vimeo video, oembeddable.
-  //         // enrich with oembed
-  //         request.get('http://noembed.com/embed?url='+record.url, {
-  //           json:true
-  //         }, (err, res, body) => {
-  //           if(err) {
-  //             // ignore
-  //             console.log(err);
-
-  //           } else {
-  //             console.log(_gr('    v'), _bl('Noembed request success!\n      - provider_url:'), body.provider_url)
-      
-  //             record.data.embed = body;
-
-  //             // update html iframe if any
-  //             if(record.data.embed.html){
-  //               record.data.embed.html = record.data.embed.html.replace(/(<iframe [^>]+)width=["']*([^"'\s]+)["']*/, function(m,a,b) {
-  //                 return a + ' width="100%"';//
-  //               }).replace(/(<iframe [^>]+)height=["']*([^"'\s]+)["']*/, function(m,a,b) {
-                  
-  //                 return a + ' height="100%"';//
-  //               })
-                
-  //             }
-              
-  //             record._resolved = true;
-  //             db.records.update({
-  //               _id: record._id
-  //             }, record);
-  //           }
-            
-  //           callback();
-  //         })
-  //       } else if(record.type == 'pdf' || record.type == 'image') {
-  //         let filepath = path.join(settings.contents.path, record.slug + path.extname(record.url));
-  //         request
-  //           .get({
-  //             url: record.url,
-  //             rejectUnauthorized: false
-  //           })
-  //           .on('error', (err) => {
-  //             console.log(err)
-  //             callback();
-  //           })
-  //           .on('response', (res) => {
-  //             console.log(_bl('    ... status:'),res.statusCode, _bl('\n    ... content-type:'), res.headers['content-type']) // 'image/png'
-              
-  //           })
-  //           .on('end', (res) => {
-  //             console.log(_gr('    v'), _bl('Request success!\n      - local file:'), filepath)
-
-  //             record._resolved = true;
-
-  //             db.records.update({
-  //               _id: record._id
-  //             }, record);
-
-  //             callback();
-  //           })
-  //           .pipe(fs.createWriteStream(filepath));
-  //       } else {
-  //         console.log(_bl('    type:'),_ye(record.type),'not supported yet, skypping');
-
-  //         setImmediate(callback);
-  //       }
-  //     })
-  //     q.push(todos);
-  //     q.drain = next;
-  //   },
-
-  //   // data override
-  //   // (next) => {
-  //   //   let q = async.queue((result, callback) => {
-
-  //   //   })
-
-  //   //   setImmediate(next)
-  //   // },
-
-    (next) => {
-      console.log(_cy(c, '.'), _bl('save YAML file'));
-      fs.writeFile(settings.yaml.documents.path, YAML.stringify(db.records.find(), 4), next);
-    } 
 ], (err) => {
   if (err) throw err;
   else{
