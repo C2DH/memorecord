@@ -6,6 +6,8 @@ primary:
       href: /the-project/
     - title: the stories
       href: /stories/
+    - title: map
+      href: /map/
     
 secondary:
   links:

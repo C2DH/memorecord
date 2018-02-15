@@ -5,6 +5,18 @@
 {% endcapture %}
 [
   {% for doc in site.data.documents%}{
+    {% if doc.geometry%}
+    "geometry": {
+      "type": "{{doc.geometry.type}}",
+      "coordinates": [{{doc.geometry.coordinates | join: ','}}]
+    },
+    {% endif %}
+    "url": "{{doc.url}}",
+    "thumbnail": {
+      "url": "{{doc.thumbnail.url}}",
+      "width": "{{doc.thumbnail.width}}",
+      "height": "{{doc.thumbnail.height}}"
+    },
     "description": "{{doc.description | split: '"' | join: '\"' | replace: nl, '\\n' }}"
   }{%unless forloop.last %},{% endunless%}{% endfor %}
 ]

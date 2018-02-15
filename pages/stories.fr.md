@@ -1,7 +1,7 @@
 ---
-layout: gallery
-lang: pt
-permalink: /pt/stories/
+layout: stories
+lang: fr
+permalink: /fr/stories/
 link: /stories/
 title: Histoires
 ---

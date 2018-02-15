@@ -1,9 +1,9 @@
 ---
-layout: gallery
-lang: en
-permalink: /stories/
+layout: stories
+lang: pt
+permalink: /pt/stories/
 link: /stories/
-title: Take part!
+title: Histoires
 ---
 
 **wooo the gallery!** 

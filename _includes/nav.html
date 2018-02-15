@@ -35,7 +35,7 @@
   <nav class="navbar fixed-top absolute-top navbar-expand-lg navbar-light navbar-secondary" style=''>
     <div class="container">
     <div class="collapse navbar-collapse">
-      <ul class="navbar-nav" style='background: #f0f0f0'>
+      <ul class="navbar-nav" >
         {% for link in site.data.navigation.secondary.links %}
         <li class='nav-item {% if page.link == link.href %} active {% endif %}'>
           <a class="nav-link" 
@@ -47,7 +47,7 @@
         </li>
         {% endfor %}
       </ul>
-      <ul class="navbar-nav" style='background: #fafafa; margin-left: 2px;'>
+      <ul class="navbar-nav languages" style='margin-left: 2px;'>
         {% for lang in site.languages %}
         <li class="nav-item {% if lang == page.lang %} active {% endif %}">
           <a class="nav-link" {% if lang == site.default_lang %} href='{{page.link | absolute_url}}' {% else %} href='{{lang | absolute_url}}{{page.link}}' {% endif %}>{{lang}}</a>

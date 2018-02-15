@@ -23,8 +23,12 @@
   background-color: transparent;
   top: 92px;
   ul{
+    background-color: #f0f0f0;
     padding: 0 0.75rem;
   } 
+  ul.languages{
+    background-color: #fafafa;
+  }
 }
 .navbar .navbar-brand{
   padding: 0;
@@ -60,45 +64,45 @@
 
 }
 
-.navbar .navbar-nav.languages{
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin: 0;
-    padding: 0;
-    background: $black;
-    bottom: 0;
-    flex-direction: column;
+// .navbar .navbar-nav.languages{
+//     position: absolute;
+//     right: 0;
+//     top: 0;
+//     margin: 0;
+//     padding: 0;
+//     background: $black;
+//     bottom: 0;
+//     flex-direction: column;
 
-    li.nav-item{
-      display: block;
-      padding: 0 0.75rem;
-      margin: 0;
-      border-width: 0;
-      // ;
+//     li.nav-item{
+//       display: block;
+//       padding: 0 0.75rem;
+//       margin: 0;
+//       border-width: 0;
+//       // ;
       
-      a.nav-link { 
-        text-align: center;
-        line-height: 30px;
+//       a.nav-link { 
+//         text-align: center;
+//         line-height: 30px;
 
-        &:hover{
-          color: $yellow;
-        }
-      }
+//         &:hover{
+//           color: $yellow;
+//         }
+//       }
       
-      &:hover{
-        border-color: transparent;
-      }
+//       &:hover{
+//         border-color: transparent;
+//       }
 
-      &.active{
-        background: $yellow;
-        border-color: transparent;
-        // a.nav-link { 
-        //   color: $white;
-        // }
-      }
-    }
-}
+//       &.active{
+//         background: $yellow;
+//         border-color: transparent;
+//         // a.nav-link { 
+//         //   color: $white;
+//         // }
+//       }
+//     }
+// }
 
 .navbar .navbar-nav a.nav-link {  
   background: transparent;

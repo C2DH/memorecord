@@ -4,9 +4,11 @@ _site/
 
 _data/documents.yaml
 
-scripts/node_modules
+node_modules
 scripts/settings.js
 
+# ignore thumbnails generated via scripts
+assets/images/thumbnails/*
 __*.*
 __*
 records.json
