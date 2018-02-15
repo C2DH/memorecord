@@ -49,24 +49,32 @@ layout: default
     background: #eaeaea;
     padding-top: 30px; padding-bottom: 30px;
     margin-bottom: 2px;'>
-<div class='container'>
-  <div class="row">
-  {% if site.data.documents %}
-  {% for media in site.data.documents %}
-  <div class='col-3'>
-  {% include social-media.html %}
-  </div>
-  {% endfor %}
-  {% else %}
-  {% for media in site.data.documentsdemo %}
-  <div class='col-3'>
-  {% include social-media.html %}
-  </div>
-  {% endfor %}
-  {% endif %}
+  <div class='container'>
+    <div class="row">
+    {% if site.data.documents %}
+    {% assign docs=site.data.documents %}
+    {% else %}
+    {% assign docs=site.data.documentsdemo %}
+    {% endif %}
 
-</div>
-</div>
+    {% for media in docs limit: 4 %}
+      <div class='col-3'>
+      {% include social-media.html %}
+      </div>
+    {% endfor %}
+    </div>
+    <div class='row'>
+      <div class='col text-center'>
+        <a class='big' {% if page.lang == site.default_lang %} 
+                    href='{{'/stories' | absolute_url}}' 
+                  {% else %} 
+                    href='{{page.lang | absolute_url}}/stories'
+                  {% endif %}>
+          {% assign key="all stories"%}{% include t.html %}
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <script>

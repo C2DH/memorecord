@@ -1,10 +1,15 @@
 ---
 # json otuput for the weekly tags...
 ---
+{% if site.data.documents %}
+{% assign docs = site.data.documents %}
+{% else %}
+{% assign docs = site.data.documentsdemo %}
+{% endif %}
 {% capture nl %}
 {% endcapture %}
 [
-  {% for doc in site.data.documents%}{
+  {% for doc in docs %}{
     {% if doc.geometry%}
     "geometry": {
       "type": "{{doc.geometry.type}}",

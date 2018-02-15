@@ -4,21 +4,68 @@
     image: 'https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11417307_449061048609632_195206599_n.jpg'
     url: 'https://www.instagram.com/p/4fZwOGBPs4/'
     _id: bd6d0df122cf404891452d08f777be02
+    geometry:
+        type: Point
+        coordinates:
+            - -48.4667
+            - -1.16667
+    thumbnail:
+        url: bd6d0df122cf404891452d08f777be02-40x40.jpg
+        width: 40
+        height: 40
 -
     uid: 'https://www.instagram.com/p/BbwmTvaB9c8/'
     description: 'Bird #memorecord'
     image: 'https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/23668218_147012062692654_4099283771335901184_n.jpg'
     url: 'https://www.instagram.com/p/BbwmTvaB9c8/'
     _id: 651aae200768437cab4bb8150204a464
+    geometry:
+        type: Point
+        coordinates:
+            - 6.13
+            - 49.6117
+    thumbnail:
+        url: 651aae200768437cab4bb8150204a464-40x40.jpg
+        width: 40
+        height: 40
 -
     uid: 'https://www.instagram.com/p/Bbwnl8BHYeN/'
     description: '#memorecord #tenerife'
     image: 'https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/23735245_309357076215727_6898639117228179456_n.jpg'
     url: 'https://www.instagram.com/p/Bbwnl8BHYeN/'
     _id: d1b7c651956e43e0bcd997835aa17016
+    geometry:
+        type: Point
+        coordinates:
+            - -16.7312335968
+            - 28.0631191382
+    thumbnail:
+        url: d1b7c651956e43e0bcd997835aa17016-40x40.jpg
+        width: 40
+        height: 40
 -
     uid: 'https://www.instagram.com/p/Bbwtle2FzDf/'
     description: 'Testing #memorecord'
     image: 'https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/23733697_166560020753171_6545383683539337216_n.jpg'
     url: 'https://www.instagram.com/p/Bbwtle2FzDf/'
     _id: 4f57e36b9f734e5f8d9aff90573d2aed
+    geometry:
+        type: Point
+        coordinates:
+            - 6.12247
+            - 49.61302
+-
+    uid: 'https://www.instagram.com/p/vEoxtMBPqY/'
+    description: '#memorecord Dos caminhos que se misturam em nós.'
+    image: 'https://scontent.cdninstagram.com/t51.2885-15/e15/10735580_1495456370732484_1779361408_n.jpg'
+    url: 'https://www.instagram.com/p/vEoxtMBPqY/'
+    _id: dd8acac01469458b96c91012bd2b8917
+    geometry:
+        type: Point
+        coordinates:
+            - -2.21827805042
+            - 52.2013610601
+    thumbnail:
+        url: dd8acac01469458b96c91012bd2b8917-40x40.jpg
+        width: 40
+        height: 40
