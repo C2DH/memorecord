@@ -1,0 +1,9 @@
+<div class='social-media'>
+  {% if media.image %}
+  <div class='image-wrapper'>
+    <div class='image' style='background-image: url({{media.image}})'>invisible-content</div>
+  </div>
+  {% endif %}
+  <div class='description'>{{media.description}}</div>
+  
+</div>

@@ -35,3 +35,19 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
+## Scripts
+
+Scripts folder contains nodejs scripts to load data from google docs. The scripts run on your own machine and make use of a google auth json file `scripts/__google.auth/.json` (gitignored) that you can download from the [developers console](https://console.developers.google.com).
+
+install & execute scripts:
+
+```
+cd scripts
+npm install
+npm run harvest
+```
+
+
+

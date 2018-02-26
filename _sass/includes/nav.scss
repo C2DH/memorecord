@@ -1,0 +1,123 @@
+.navbar{
+  background-color: $yellow;
+  padding: 0rem 0;
+  // padding: 0;
+  ul li{
+    padding: 0 0.5rem;
+  }
+  
+
+  
+}
+
+.navbar.navbar-primary {
+  .navbar-brand{
+    margin-left: 0.75rem;
+  }
+  .collapse{
+    background-color: transparent;
+  }
+}
+
+.navbar.navbar-secondary {
+  background-color: transparent;
+  top: 92px;
+  ul{
+    background-color: #f0f0f0;
+    padding: 0 0.75rem;
+  } 
+  ul.languages{
+    background-color: #fafafa;
+  }
+}
+.navbar .navbar-brand{
+  padding: 0;
+  background: transparent;
+  // border-bottom: 2px solid cyan;
+  color: cyan;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+.navbar .navbar-nav li.nav-item {
+  padding: 0;
+  margin: 0.75rem;
+  border-bottom: 2px solid transparent;
+
+  &.logo-wrapper{
+    border-color: transparent;
+  }
+  a{
+    color: $grey-on-yellow;
+  }
+  &:hover{
+    border-color: $grey-on-yellow;
+    a {
+      color: $black;
+    }
+  }
+  &.active {
+    border-color: $black;
+    a {
+      color: $black;
+    } 
+  }
+
+}
+
+// .navbar .navbar-nav.languages{
+//     position: absolute;
+//     right: 0;
+//     top: 0;
+//     margin: 0;
+//     padding: 0;
+//     background: $black;
+//     bottom: 0;
+//     flex-direction: column;
+
+//     li.nav-item{
+//       display: block;
+//       padding: 0 0.75rem;
+//       margin: 0;
+//       border-width: 0;
+//       // ;
+      
+//       a.nav-link { 
+//         text-align: center;
+//         line-height: 30px;
+
+//         &:hover{
+//           color: $yellow;
+//         }
+//       }
+      
+//       &:hover{
+//         border-color: transparent;
+//       }
+
+//       &.active{
+//         background: $yellow;
+//         border-color: transparent;
+//         // a.nav-link { 
+//         //   color: $white;
+//         // }
+//       }
+//     }
+// }
+
+.navbar .navbar-nav a.nav-link {  
+  background: transparent;
+  padding: 0 ;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: $black;
+}
+
+
+
+.navbar.absolute-top {
+    position: absolute;
+}
+
+.logo-wrapper img{
+  height: 4rem;
+}

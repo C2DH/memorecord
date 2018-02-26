@@ -1,0 +1,109 @@
+---
+layout: default
+---
+<div class='fullsized'>
+  <div id="map-wrapper"><div id='map'></div></div>
+</div>
+
+<script src='{{ '/assets/js/d3.min.js' | relative_url }}'></script>
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.css' rel='stylesheet' />
+
+
+<script>
+
+mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuaWVsZWd1aWRvIiwiYSI6ImNqYzZmaDFobTByMDkycXB0MHIyb3dvYmsifQ.e4uVE6flkDXaZEqRj93PtQ';
+
+
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/danieleguidouni/cjc7oak840knt2ro47b3u86ae',// 'mapbox://styles/danieleguido/cjc7oak840knt2ro47b3u86ae',// cjbf3l0zu126m2so18uf3t80j',
+    center: [-65.017, -16.457],
+    zoom: 5
+});
+
+map.scrollZoom.disable();
+
+console.log('euh...? {{ '/assets/data/records.json' | relative_url }}');
+
+map.on('load', function () {
+
+  var bounds = {
+    minLat:0, 
+    minLng:0, 
+    maxLat:0, 
+    maxLng:0
+  };
+
+  d3.json('{{ '/assets/data/records.json' | relative_url }}').then(function(data) {
+    // refresh list of items.
+
+
+    // filter by geometry
+    var features = data.filter(function(d) {
+      return d.geometry
+    })
+
+    console.log(features)
+    features.forEach(function(marker) {
+      // create a DOM element for the marker
+      var el = document.createElement('div');
+      el.className = 'marker';
+      el.style.backgroundImage = 'url({{ '/assets/images/thumbnails/' | relative_url }}'+marker.thumbnail.url+')'
+      el.style.width = marker.thumbnail.width + 'px';
+      el.style.height = marker.thumbnail.height + 'px';
+
+      el.addEventListener('click', function() {
+        // window.alert(marker.properties.message);
+      });
+      //lng
+      if(marker.geometry.coordinates[0] <= bounds.minLng)
+        bounds.minLng = marker.geometry.coordinates[0];
+      if(marker.geometry.coordinates[0] >= bounds.maxLng)
+        bounds.maxLng = marker.geometry.coordinates[0];
+
+      //lat
+      if(marker.geometry.coordinates[1] <= bounds.minLat)
+        bounds.minLat = marker.geometry.coordinates[1];
+      if(marker.geometry.coordinates[1] >= bounds.maxLat)
+        bounds.maxLat = marker.geometry.coordinates[1];
+
+      // add marker to map
+      new mapboxgl.Marker(el)
+          .setLngLat(marker.geometry.coordinates)
+          .addTo(map);
+    });
+
+    map.fitBounds([[
+      bounds.minLng,
+      bounds.minLat
+    ], [
+      bounds.maxLng,
+      bounds.maxLat
+    ]]);
+    // map.addSource('trace', { type: 'geojson', data: data });
+
+  }).catch(function(err) {
+    console.error('error loading JSON file\n', err);
+  });
+});
+
+// add markers to map
+// geojson.features.forEach(function(marker) {
+//     // create a DOM element for the marker
+//     var el = document.createElement('div');
+//     el.className = 'marker';
+//     el.style.backgroundImage = 'url(https://placekitten.com/g/' + marker.properties.iconSize.join('/') + '/)';
+//     el.style.width = marker.properties.iconSize[0] + 'px';
+//     el.style.height = marker.properties.iconSize[1] + 'px';
+
+//     el.addEventListener('click', function() {
+//         window.alert(marker.properties.message);
+//     });
+
+//     // add marker to map
+//     new mapboxgl.Marker(el)
+//         .setLngLat(marker.geometry.coordinates)
+//         .addTo(map);
+// });
+</script>

@@ -1,0 +1,25 @@
+div.social-media{
+  
+
+  .image-wrapper{
+    width: 100%;
+    display: block;
+    > .image{
+      height: 0;
+      padding-bottom: 100%;
+      background: $devil-red;
+      color: transparent;
+      background-size: cover;
+    }
+    
+  }
+
+  .description{
+    max-height: 100px;
+    overflow:hidden;
+    margin: 10px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  margin-bottom: 15px;
+}

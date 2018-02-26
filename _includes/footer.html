@@ -1,9 +1,71 @@
-<div class="container">
-  <footer>
-  
-Supported by the Luxembourg National Research Fund
-LOGO FNR 
-10116046.
 
-</footer>
+  <footer>
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-md col-md-6">
+        <p>
+      Copyright © <a href='https://wwwen.uni.lu/'>Université du Luxembourg</a>. All rights reserved.
+      </p>
+        <p>Supported by the Luxembourg National Research Fund
+        LOGO FNR 
+        10116046.</p>
+        <p>
+          Made with ❤ at <a href='https://c2dh.uni.lu'>C2DH</a>
+        </p>
+      </div>
+      
+      <div class="col-md">
+        <nav role="navigation">
+          <ul class='nav flex-column'>
+            {% for link in site.data.navigation.primary.links %}
+            <li class='nav-item {% if page.link == link.href %} active {% endif %}'>
+              <a class="nav-link" 
+                {% if page.lang == site.default_lang %} 
+                  href='{{link.href | absolute_url}}' 
+                {% else %} 
+                  href='{{page.lang | absolute_url}}{{link.href}}'
+                {% endif %}>{% assign key=link.title%}{% include t.html %}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </nav>
+        <br>
+        <nav role="navigation">
+          <ul class='nav flex-column'>
+            {% for link in site.data.navigation.secondary.links %}
+            <li class='nav-item {% if page.link == link.href %} active {% endif %}'>
+              <a class="nav-link" 
+                {% if page.lang == site.default_lang %} 
+                  href='{{link.href | absolute_url}}' 
+                {% else %} 
+                  href='{{page.lang | absolute_url}}{{link.href}}'
+                {% endif %}>{% assign key=link.title%}{% include t.html %}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </div>
+      <div class="col-md">
+        <p>
+          instagram: <a href='https://www.instagram.com/memorecorder/'>@memorecorder</a>
+          <br>
+          facebook: <a href='https://www.facebook.com/memorecordlux'>Memorecord</a>
+          <br>
+          github: <a href=''>c2dh/memorecord</a>
+        </p>
+        <label>{% assign key="languages"%}{% include t.html %}</label>
+        
+        <ul class='nav flex-row'>
+          {% for lang in site.languages %}
+          <li class="nav-item {% if lang == page.lang %} active {% endif %}">
+            <a class="nav-link" {% if lang == site.default_lang %} href='{{page.link | absolute_url}}' {% else %} href='{{lang | absolute_url}}{{page.link}}' {% endif %}>{{lang}}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    
   </div>
+</footer>
+  

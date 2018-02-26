@@ -1,15 +1,137 @@
 ---
 layout: default
 ---
-<div class='container'>
-    <div id='wrapper'>
 
-    <h1>{{page.title}}</h1>
 
-    {% assign paragraphs = page.content | split: site.excerpt_separator %}
-    <div class="excerpt">{{paragraphs[0]}}</div>
-    <div class="contents">
-      {{paragraphs[1]}}
+<div class='fullsized'>
+  
+  <div class='left'>
+    <video autoplay loop class="video-background" muted plays-inline style='right: -10px;left:auto'>
+      <source src='{{"assets/videos/043445305-goods-being-loaded-buenos-aire.mp4" | relative_url}}' type="video/mp4">
+      </video>
+
+    <!-- <video autoplay loop class="video-background" muted plays-inline>
+    <source src='{{"assets/videos/044561560-dziga-vertov-man-movie-camera-.mp4" | relative_url}}' type="video/mp4">
+  </video> -->
+  {% assign paragraphs = page.content | split: site.excerpt_separator %}
+    <div class='container half-container'>
+      <div class='row ' style='height: 100%'>
+        <div class='col'>
+          <h1 class='headline'>
+            <span >
+              <b>Memorecord</b>
+              
+              <span href="" class="typewrite" data-period="2000" data-type='[ {% for headline in site.data.i18n.headlines  %}
+                "{{ headline[page.lang] }}"{%unless forloop.last %},{% endunless%}
+              {% endfor %} ]'><span class="wrap"></span></span>
+            </span></h1>
+
+          <div class="excerpt"><span style='background-color: white'>{{paragraphs[0]}}</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='right'>
+    <video autoplay loop class="video-background" muted plays-inline>
+      <source src='{{"assets/videos/044561560-dziga-vertov-man-movie-camera-.mp4" | relative_url}}' type="video/mp4">
+      </video>
+    
+    
+    <!-- <video autoplay loop class="video-background" muted plays-inline>
+      <source src="https://player.vimeo.com/external/158148793.hd.mp4?s=8e8741dbee251d5c35a759718d4b0976fbf38b6f&profile_id=119&oauth2_token_id=57447761" type="video/mp4">
+ 
+    <source src='{{"assets/videos/043445305-goods-being-loaded-buenos-aire.mp4" | relative_url}}' type="video/mp4">
+      </video> -->
+  </div>
+</div>
+
+<div style='border-top: 2px solid magenta;
+    background: #eaeaea;
+    padding-top: 30px; padding-bottom: 30px;
+    margin-bottom: 2px;'>
+  <div class='container'>
+    <div class="row">
+    {% if site.data.documents %}
+    {% assign docs=site.data.documents %}
+    {% else %}
+    {% assign docs=site.data.documentsdemo %}
+    {% endif %}
+
+    {% for media in docs limit: 4 %}
+      <div class='col-3'>
+      {% include social-media.html %}
+      </div>
+    {% endfor %}
+    </div>
+    <div class='row'>
+      <div class='col text-center'>
+        <a class='big' {% if page.lang == site.default_lang %} 
+                    href='{{'/stories' | absolute_url}}' 
+                  {% else %} 
+                    href='{{page.lang | absolute_url}}/stories'
+                  {% endif %}>
+          {% assign key="all stories"%}{% include t.html %}
+        </a>
+      </div>
     </div>
   </div>
 </div>
+
+<script>
+  var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 100 - Math.random() * 50;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 4px solid #FAF54F}";
+        document.body.appendChild(css);
+    };
+</script>

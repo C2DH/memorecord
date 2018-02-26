@@ -1,0 +1,67 @@
+h1.headline {
+  margin-top: 100px;
+  margin-right: 2.5rem;
+  > span{
+    background-color: $white;
+  }
+}
+
+.index .fullsized{
+  margin-top: 90px;
+}
+
+
+a.big{
+      border-bottom: 2px solid #151515;
+      
+  &:hover{    color: #151515;
+    border-bottom-color: transparent;
+    text-decoration: none;
+  }
+}
+
+video.video-background {
+  position: absolute;   
+  height: auto;
+  min-height: 100%;
+  min-width: 100%;
+  // width: 200%; 
+  left: 0%;
+}
+
+.fullsized{
+  height: 75%;
+  position: relative;
+  background-color: white;
+  
+  &.first{
+    margin-top: 2.5rem;
+  }
+
+  
+
+
+  & > .left, & > .right{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    overflow:hidden;
+
+  }
+  & > .right{
+    left: 50%;
+    
+  }
+
+  // & > .left{
+  //   video{
+  //     height: auto;
+  //     width: 200%;
+  //   }
+  // }
+  &.opposite{
+    background: #141516;
+  
+    color: white;
+  }
+}

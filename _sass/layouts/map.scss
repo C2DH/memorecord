@@ -1,0 +1,38 @@
+body.map{
+
+  .navbar.navbar-secondary ul{
+    background-color: rgba(240,240,240, .85);
+    &.languages{
+      background-color: rgba(250,250,250, .85);
+    }
+  }
+
+  .fullsized {
+    margin: 0px;
+    height: 100%;
+  }
+
+  #map { 
+    position:absolute; 
+    top: 92px; 
+    bottom:2px;
+    right: 0px; 
+    left: 0px; 
+  }
+
+  .marker {
+    display: block;
+    border: 2px solid $devil-red;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  #map-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+  }
+
+}
