@@ -8,6 +8,7 @@ const fs          = require('fs'),
       async       = require('async'),
       request     = require('request'),
       settings    = require('./settings.js'),
+      moment      = require('moment'),
       credentials = require(settings.google_spreadsheet_to_json.credentials),
       
       gsjson = require('google-spreadsheet-to-json');
@@ -86,8 +87,24 @@ async.waterfall([
         // clean url
         if(d.url && d.url.length) {
           _d.url = d.url.trim();
+          _d.provider = 'instagram';
+        } else if (d.link && d.link.length) {
+          _d.url = d.link.trim();
+          _d.provider = 'facebook';
         }
         
+        // clean date for instagram
+        if(d.date) {
+          
+          _d.date = moment(d.date, 'X').format('YYYY-MM-DD');
+
+          // later with javascrip Date object do: d=neww Date() d.toLocaleDateString('fr-FR', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
+        } else if (d.created_time) {
+          _d.date = moment(d.created_time).format('YYYY-MM-DD');
+        }
+
+        // console.log(d, _d)
+
         return _d;
       }).forEach(d => {
         console.log(_bl('    merging:'), '/',_ye(d.uid),'/');
