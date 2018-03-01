@@ -16,12 +16,14 @@
       "coordinates": [{{doc.geometry.coordinates | join: ','}}]
     },
     {% endif %}
+    "id": "{{doc._id}}",
     "url": "{{doc.url}}",
     "thumbnail": {
       "url": "{{doc.thumbnail.url}}",
       "width": "{{doc.thumbnail.width}}",
       "height": "{{doc.thumbnail.height}}"
     },
+    "image": "{{doc.image}}",
     "description": "{{doc.description | split: '"' | join: '\"' | replace: nl, '\\n' }}"
   }{%unless forloop.last %},{% endunless%}{% endfor %}
 ]

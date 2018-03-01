@@ -1,33 +1,55 @@
-body.gallery{
-  .fullsized {
-    margin: 0px;
-    height: 100%;
+body.stories{
+  
+  #modal-slides{
+    pointer-events: none;
+    
+    .modal-dialog{
+      pointer-events: none;
+      position: absolute;
+      top: 155px;
+      margin: 0;
+      right: 20px;
+      left: 50%;
+      bottom: 20px;
+    }
+    
+    .close{
+      position: absolute;
+      right: 0;
+      top: -35px;
+      background: #f0f0f0;
+      height: 35px;
+      line-height: 35px;
+      padding: 0 10px;
+    }
+
+    .modal-header{
+      position: relative;
+      
+
+    }
+
+    .modal-content{
+      pointer-events: auto;
+      box-shadow: 0px 2px 4px #ccc;
+      background-color: #f0f0f0;
+      max-height: 90%;
+      border-width: 0;
+      border-radius: 0;
+    }
+    
+    .modal-body{
+      font-size: 1.6em;
+      overflow: auto;
+    }
   }
 
-  #map { 
-    position:absolute; 
-    top: 152px; 
-    bottom:2px;
-    right: 2px; 
-    left: 2px; 
-  }
+  .social-media{
+    border: 2px solid transparent;
 
-  .marker {
-    display: block;
-    border: 2px solid $devil-red;
-    border-radius: 50%;
-    cursor: pointer;
-    padding: 0;
-  }
-
-  #map-wrapper{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: #ccc;
-  }
-
-  #list-wrapper{
-    margin-top:152px;
-  }
+    &.active{
+      border: 2px solid $almost-black;
+    }
+  }  
 }
+

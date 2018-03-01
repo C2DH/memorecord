@@ -8,23 +8,165 @@ layout: default
     {% assign paragraphs = page.content | split: site.excerpt_separator %}
     <div class="excerpt">{{paragraphs[0] | markdownify}}</div>
 
-    <div class="row">
-      {% if site.data.documents %}
-        {% for media in site.data.documents %}
-        <div class='col-3'>
-        {% include social-media.html %}
-        </div>
-        {% endfor %}
-      {% else %}
-        {% for media in site.data.documentsdemo %}
-        <div class='col-3'>
-        {% include social-media.html %}
-        </div>
-        {% endfor %}
-      {% endif %}
+    <div class="row social-media-container">
+      
 
     </div>
   
 
   </div>
 </div>
+
+<script src='{{ '/assets/js/d3.min.js' | relative_url }}'></script>
+
+<div id='modal-slides' class="modal fade show" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    
+    <div class="modal-content">
+      <div class='close'>close</div>
+      <div class="modal-header">
+        
+      </div>
+      <div class="modal-body">
+      <div class='description'></div>
+    </div>
+      <div class="modal-footer">
+        next story
+        <div class='next'></div>
+      <div class='previous'></div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(e) {
+    m = new ModalSlides({
+      modalSelector: '#modal-slides',
+      slideSelector: '.social-media-wrapper',
+      slideContainerSelector: '.social-media-container'
+    });
+    d3.json('{{ '/assets/data/records.json' | relative_url }}').then(function(data) {
+      // clean data here
+      m.update(data);
+    })
+    // d3.selectAll('.social-media').on('click', function(){
+    //   m.show();
+    // })
+    
+  })
+  
+
+  function ModalSlides(options){
+    
+    var _self = this;
+    
+    // boolean properties
+    this.is_visible = false;
+    this.is_empty = true;
+    this.selected = null; // the selected slide ;)
+    this.data = []; 
+
+    this.init = function(modalSelector, slideSelector, slideContainerSelector) {
+      this._modal = d3.select(modalSelector);
+      this._modal_title = this._modal.select('.description');
+      this._modal_close = this._modal.select('.close');
+      this._container= d3.select(slideContainerSelector);
+
+      // .selectAll("circle"); d3.selectAll(slideSelector);
+      this.is_empty = this._modal.empty() || this._container.empty();
+      
+      if(this.is_empty){
+        console.error('ModalSlides: check modalSelector param, given:', modalSelector)
+        return;
+      }
+
+      // build social media wrapper!
+      this._slides = this._container.selectAll("social-media-wrapper");
+      
+
+      document.onkeydown = function(evt) {
+        evt = evt || window.event;
+        if (evt.keyCode == 27 && _self.is_visible) {
+          _self.hide();
+        }
+      };
+
+      this._modal_close.on('click', _self.hide);
+      
+      console.log('ModalSlides on', modalSelector)
+    }
+
+    this.onclick = function(datum, idx, listof) {
+      console.log('ModalSlides slides@click', idx, datum.id, datum);
+      if(_self.selected && _self.selected.id != datum.id){
+        // selection change!
+        _self._selected.classed('active', false)
+      }
+      _self.selected = datum;
+      // selected elements
+      _self._selected = d3.select(this);
+      _self._selected.classed('active', true);
+
+      _self.show();
+    }
+
+    this.hide = function(){
+      if(_self.is_empty)
+        return;
+      if(_self.selected)
+        _self._selected.classed('active', false)
+
+      _self._modal.classed('show', false)
+        .transition()
+        .delay(150) // decay value
+        .style('display', 'none');
+    }
+
+    this.show = function() {
+      if(_self.is_empty)
+        return;
+      this.is_visible = true;
+      // fill html before showing the modal
+      _self._modal_title.html(_self.selected.description);
+      _self._modal.classed('show', true)
+        .style('display', 'block');
+    }
+
+    this.update = function(data) {
+      console.log(data.length);
+      _self.data = data;
+      _self._slides = _self._slides.data(data, function(d) { 
+        return d.id;
+      });
+      _self._slides.exit().remove();
+      // should use mustache
+      var slides = _self._slides.enter()
+        .append("div").attr("class", 'col-3 social-media-wrapper')
+          .append('div').classed('social-media', true)
+
+      // handler
+      slides.on("click", _self.onclick);
+
+      // if has image
+      slides
+        .append('div').classed('image-wrapper', true)
+          .append('div').classed('image', true)
+          .style('background-image', function(d) {
+            return d.image? 'url('+d.image+')':'none'
+          })
+
+      // description
+      slides
+        .append('div').classed('description', true)
+          .html(function(d){
+            return d.description
+          })
+    
+    }
+
+    this.init(options.modalSelector, options.slideSelector, options.slideContainerSelector);
+  }
+
+</script>
