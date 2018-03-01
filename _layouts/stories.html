@@ -45,7 +45,8 @@ layout: default
     m = new ModalSlides({
       modalSelector: '#modal-slides',
       slideSelector: '.social-media-wrapper',
-      slideContainerSelector: '.social-media-container'
+      slideContainerSelector: '.social-media-container',
+      language: '{{page.lang}}'
     });
     d3.json('{{ '/assets/data/records.json' | relative_url }}').then(function(data) {
       // clean data here
@@ -68,7 +69,9 @@ layout: default
     this.selected = null; // the selected slide ;)
     this.data = []; 
 
-    this.init = function(modalSelector, slideSelector, slideContainerSelector) {
+    this.init = function(modalSelector, slideSelector, slideContainerSelector, language) {
+      this.language = language;
+
       this._modal = d3.select(modalSelector);
       this._modal_title = this._modal.select('.description');
       this._modal_close = this._modal.select('.close');
@@ -159,14 +162,21 @@ layout: default
 
       // description
       slides
+        .append('div').classed('description-wrapper', true)
         .append('div').classed('description', true)
           .html(function(d){
+            if(d.date){
+              var date = new Date(d.date) 
+              return '<span class="date">'+ date.toLocaleDateString(_self.language, { 
+                weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' 
+              }) +'</span>  &ndash; ' + d.description
+            }
             return d.description
           })
     
     }
 
-    this.init(options.modalSelector, options.slideSelector, options.slideContainerSelector);
+    this.init(options.modalSelector, options.slideSelector, options.slideContainerSelector, options.language || 'en');
   }
 
 </script>

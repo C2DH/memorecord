@@ -1,25 +1,63 @@
 div.social-media{
-  
+  -webkit-transition: .21s border-color linear;
+  -moz-transition: .21s border-color linear;
+  -moz-transition: .21s border-color linear;
+  -ms-transition: .21s border-color linear;
+  -o-transition: .21s border-color linear;
+  transition: .21s border-color linear;
+
+  border: 2px solid transparent;
+
+  &:hover, &.active{
+    border-color:  $yellow;
+    .image-wrapper > .image{
+      filter: grayscale(0); 
+    }
+  }
+
+  &.active{
+    border-color:  $almost-black;
+  }
 
   .image-wrapper{
     width: 100%;
     display: block;
+
     > .image{
       height: 0;
       padding-bottom: 100%;
       background: #f0f0f0;//$devil-red;
       color: transparent;
       background-size: cover;
+    
+      -webkit-transition: .21s -webkit-filter linear;
+      -moz-transition: .21s -moz-filter linear;
+      -moz-transition: .21s filter linear;
+      -ms-transition: .21s -ms-filter linear;
+      -o-transition: .21s -o-filter linear;
+      transition: .21s filter linear, .21s -webkit-filter linear;
+      filter: grayscale(.7);
+      
     }
     
   }
+
+  .date{
+      color: grey;
+    }
+
+  
+  
+
 
   .description{
     max-height: 100px;
     overflow:hidden;
     margin: 10px;
+    padding: 0px;
     font-size: 13px;
     line-height: 20px;
   }
+
   margin-bottom: 15px;
 }
