@@ -11,10 +11,19 @@ footer{
     color: $black;
     border-bottom: 2px solid $black;
     
+
     &:hover{
       color: $black;
       border-bottom-color: transparent ;
       text-decoration: none;
+    }
+  }
+
+  .fnr-logo{
+    border-bottom: 0px solid transparent;
+    img{
+      margin: 10px;
+    
     }
   }
 
