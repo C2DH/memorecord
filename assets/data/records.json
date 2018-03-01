@@ -24,6 +24,9 @@
       "height": "{{doc.thumbnail.height}}"
     },
     "image": "{{doc.image}}",
+    "provider": "{{doc.provider}}",
+    "date": "{{doc.date}}",
+    "url": "{{doc.url}}",
     "description": "{{doc.description | split: '"' | join: '\"' | replace: nl, '\\n' }}"
   }{%unless forloop.last %},{% endunless%}{% endfor %}
 ]
