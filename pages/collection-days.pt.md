@@ -3,7 +3,7 @@ layout: page
 lang: pt
 permalink: /pt/collection-days/
 link: /collection-days/
-title: Collection Days PT
+title: Dias de coleta
 ---
 
 Se você desejar compartilhar algo cara a cara, ou se você tiver fotografias, documentos antigos, objetos que você gostaria de adicionar à sua história, junte-se a um dos dias de troca e coleta com #memorecord.
