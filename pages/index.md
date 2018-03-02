@@ -6,5 +6,5 @@ link: /
 title: join the harvest
 ---
 
-Join the harvest! Use #memorecord on your social media.
+Join the harvest! Use #memorecord on your Facebook and Instagram posts.
 <!-- more -->
