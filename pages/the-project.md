@@ -6,7 +6,7 @@ link: /the-project/
 title: The project
 ---
 
-**Memorecord** is a digital public history project. It brings together **community participation and academic effort** for presenting another view on the history of migration in Luxembourg. The project is part of a PhD research at the Luxembourg Centre for Contemporary and Digital History (C2DH). It takes advantage from new communication technologies to approach history in a collaborative way.  
+**Memorecord** is a digital public history project. It brings together **community participation and academic effort** for presenting another view on the history of migration in Luxembourg. It takes advantage from new communication technologies to approach history in a collaborative way.  
 
 <!-- more -->
 
