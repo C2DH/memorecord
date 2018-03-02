@@ -8,77 +8,86 @@ body.stories{
       padding-left: 0;
     }
   } 
+}
 
-
-
-  #modal-slides{
+#modal-slides{
+  pointer-events: none;
+  
+  .modal-dialog{
     pointer-events: none;
+    position: absolute;
+    top: 88px; //top: 155px; 
+    margin: 0;
+    right: 15px;
+    left: 15px;
+    bottom: 20px;
+  }
+  
+  .close{
+    position: absolute;
+    //right: 0;
+    //top: -35px;
+    background: #f0f0f0;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+    right: 5px;
+    top: 10px;
+  }
+
+  .header{
+    position: relative;
+    border-bottom-width: 0px;
+        padding: 15px;
+            margin-right: 50px;
+  }
+
+  .modal-content{
+    pointer-events: auto;
+    box-shadow: 0px 2px 2px rgba(0,0,0,.32);
+    background-color: #f0f0f0;
+    max-height: 90%;
+    border-width: 0;
+    border-radius: 0;
+
     
-    .modal-dialog{
-      pointer-events: none;
-      position: absolute;
-      top: 155px;
+  }
+  
+  .modal-body{
+    font-size: 1em;
+    overflow: auto;
+    padding: 0;
+
+    
+
+    .description {
       margin: 0;
-      right: 20px;
-      left: 50%;
-      bottom: 20px;
-    }
-    
-    .close{
-      position: absolute;
-      right: 0;
-      top: -35px;
-      background: #f0f0f0;
-      height: 35px;
-      line-height: 35px;
-      padding: 0 10px;
-    }
-
-    .header{
-      position: relative;
-      border-bottom-width: 0px;
-          padding: 15px;
-    }
-
-    .modal-content{
-      pointer-events: auto;
-      box-shadow: 0px 2px 2px rgba(0,0,0,.32);
-      background-color: #f0f0f0;
-      max-height: 90%;
-      border-width: 0;
-      border-radius: 0;
-
-      
-    }
-    
-    .modal-body{
-      font-size: 1.2em;
-      overflow: auto;
-      padding: 0;
-
-      
-
-      .description {
-        margin: 0;
-        > .inner {
-          padding: 0 15px;
-        }
-        > img{
-          float:left;
-          max-width: 50%;
-          margin: 0 15px 15px 15px;
-        }
+      > .inner {
+        padding: 0 15px;
+      }
+      > img{
+        float:left;
+        max-width: 50%;
+        margin: 0 15px 15px 15px;
       }
     }
   }
-
- 
 }
 
 
 
-
 @media (min-width: 768px) {
+  #modal-slides{
+    .modal-dialog{
+      top: 155px; 
+      right: 20px;
+    left: 50%;
+    }
+    .modal-body{
+      font-size: 1.2em;
+    }
+  }
+
   .social-media-container{
     margin-right: -15px;
     margin-left: -15px;

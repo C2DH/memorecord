@@ -128,7 +128,7 @@ $navbar-mobile-height: 250px;
 // navbar mobile
 #navbar-mobile{
   position: fixed;
-  z-index: 10;
+  z-index: 1060;
   background-color: $yellow;
   top: -$navbar-mobile-height;
   height: $navbar-mobile-height  + 50px;
