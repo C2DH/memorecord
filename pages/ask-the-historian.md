@@ -6,13 +6,12 @@ link: /ask-the-historian/
 title: Ask the historian!
 ---
 
-If you need more explanations about this **Memorecord** ask the historian responsible for this project: Anita Lucchesi
+If you need more explanations about Memorecord ask the project curator: [**Anita Lucchesi**](mailto:anita.lucchesi@uni.lu).
 
 <!-- more -->
 
 ## who is anita
 
-test
+Anita is a PhD Candidate in Digital and Public History at the [Center for Contemporary and Digital History](https://www.c2dh.uni.lu/) ([University of Luxembourg](https://www.uni.lu/)), with a project supported by the [National Research Fund, Luxembourg](https://www.fnr.lu) (AFR-FNR PhD Grant, PhD project retained for funding from 2015 to 2018). Master in Comparative History by the Federal University of Rio de Janeiro, with a degree in History by the same University. Anita’s Bachelors Monograph on the relationship between History and New Media won a prize from the Brazilian Society for Theory and History of Historiography has been published as an eBook. Her Master Thesis compared the developments of Digital history/Digital Historiography in Italy and United States between 2001-2011. In Luxembourg, she is conducting doctoral project on migrant memories and narratives in the Grand Duchy, using digital public history methods to gather and analyse the historical sources, as well as to engage the interested community in the project. Anita is also member of the administration board of the [Centre de Documentation sur les Migrations Humaines]((https://www.fnr.lu)), member of the outreach committee of the [Rede Brasileira de História Pública](http://historiapublica.com.br/) and treasurer of the ]International Federation for Public History](http://ifph.hypotheses.org/).
 
-Anita has a BA and MA by the Federal University of Rio de Janeiro (Brazil) and is currently conducting a PhD research at the Center for Contemporary and Digital History (University of Luxembourg). Anita is the project curator and will be answering all questions related to Memorecord. 
-Please, write her at memorecord@uni.lu if you want to submit contents or at anita.lucchesi@uni.lu if you have other doubts or suggestions.
+Check out [Anita’s profile on C2DH website](https://www.c2dh.uni.lu/people/anita-lucchesi) to check her publications.
