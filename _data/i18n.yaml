@@ -30,6 +30,11 @@ languages:
   en: languages
   fr: languages
   pt: languages
+close menu:
+  en: close menu
+  fr: fermer
+  pt: cerrar
+  it: chiudi
 headlines:
   -
     en: is aimed at collecting memories of migration in Luxembourg

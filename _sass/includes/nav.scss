@@ -124,7 +124,7 @@
 
 
 
-$navbar-mobile-height: 500px;
+$navbar-mobile-height: 250px;
 // navbar mobile
 #navbar-mobile{
   position: fixed;
@@ -191,6 +191,34 @@ $navbar-mobile-height: 500px;
             padding: 2px 4px;
       }
     }
+  }
+
+  > ul.navbar-nav{
+    position: absolute;
+    border-top: 2px solid;
+    top: 50px;
+
+    &.left{
+      left: 15px;
+      right: 50%;
+      
+    }
+    
+    &.right{
+      right: 15px;
+      left: 50%;
+      
+    }
+
+    li{
+      
+      a{
+        padding-left: 15px;
+        padding-right: 15px;
+      
+      }
+    }
+
   }
   
 }
