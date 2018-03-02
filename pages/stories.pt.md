@@ -6,6 +6,6 @@ link: /stories/
 title: Histoires
 ---
 
-**wooo the gallery!** 
+**A colheita #memorecord** 
 <!-- more -->
-and a subtitle.
+
