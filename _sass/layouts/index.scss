@@ -56,7 +56,11 @@ video.video-background {
     }
     & > .right{
       top: 0;
-      left: 50%
+      left: 50%;
+      border-top: 0px solid transparent;
+    }
+    & > .left{
+      border-bottom: 0px solid transparent;
     }
   }
 }
@@ -80,6 +84,11 @@ video.video-background {
     top: 50%;
     left: 0%;
     height: 50%;
+    border-top: 2px solid $almost-black;
+  }
+
+  & > .left{
+    border-bottom: 1px solid $yellow;
   }
 
 

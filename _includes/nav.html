@@ -6,8 +6,8 @@
     <a class="navbar-brand" href="{{'/' | absolute_url}}">
       <img src='{{ "assets/images/memorecord-logo.png" | relative_url}}' alt='{{site.title}}'>
     </a>
-    <div class='toggler'></div>
-    <ul class="navbar-nav languages" style='margin-left: 2px;'>
+    <div class='toggler'><span>menu</span></div>
+    <ul class="languages" >
       {% for lang in site.languages %}
       <li class="nav-item {% if lang == page.lang %} active {% endif %}">
         <a class="nav-link" {% if lang == site.default_lang %} href='{{page.link | absolute_url}}' {% else %} href='{{lang | absolute_url}}{{page.link}}' {% endif %}>{{lang}}</a>
@@ -16,6 +16,20 @@
     </ul>
   </div>
 </nav>
+
+<script>
+  // for mobile only
+  document.addEventListener("DOMContentLoaded", function(e) {
+    var _navbarMobile = d3.select('#navbar-mobile'),
+        navbarMobileIsOpen = false;
+    _navbarMobile.select('.toggler').on('click', function(){
+      navbarMobileIsOpen = !navbarMobileIsOpen;
+      _navbarMobile.classed('active', navbarMobileIsOpen);
+
+    })
+  })  
+</script>
+
 
   <nav class="navbar fixed-top absolute-top navbar-expand-lg navbar-light navbar-primary">
     <div class="container">
