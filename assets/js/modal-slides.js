@@ -23,13 +23,14 @@
       this.is_empty = this._modal.empty() || this._container.empty();
       
       if(this.is_empty){
-        console.error('ModalSlides: check modalSelector param, given:', modalSelector)
-        return;
-      }
+        console.warn('ModalSlides: check modalSelector param, given:', modalSelector)
+        // return;
+      } else {
 
-      // build social media wrapper!
-      this._slides = this._container.selectAll("social-media-wrapper");
+        // build social media wrapper!
+        this._slides = this._container.selectAll("social-media-wrapper");
       
+      }
 
       document.onkeydown = function(evt) {
         evt = evt || window.event;
@@ -58,10 +59,12 @@
     }
 
     this.hide = function(){
-      if(_self.is_empty)
+      if(!_self.is_empty) {
+        
+        if(_self.selected)
+          _self._selected.classed('active', false)
         return;
-      if(_self.selected)
-        _self._selected.classed('active', false)
+      }
 
       _self._modal.classed('show', false)
         .transition()
@@ -70,8 +73,7 @@
     }
 
     this.show = function() {
-      if(_self.is_empty)
-        return;
+      
       this.is_visible = true;
       // fill html before showing the modal
       _self._modal_title.html('<img src="'+_self.selected.image+'" /><div class="inner">' + _self.selected.description + '</div>');
@@ -81,9 +83,16 @@
         .style('display', 'block');
     }
 
+    this.goto = function(datum) {
+      _self.selected = datum;
+      _self.show();
+    }
+
     this.update = function(data) {
       console.log(data.length);
       _self.data = data;
+      if(_self.is_empty)
+        return;
       _self._slides = _self._slides.data(data, function(d) { 
         return d.id;
       });

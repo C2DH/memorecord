@@ -14,7 +14,7 @@ body.map{
 
   #map { 
     position:absolute; 
-    top: 92px; 
+    top: 52px; 
     bottom:2px;
     right: 0px; 
     left: 0px; 
@@ -35,4 +35,11 @@ body.map{
     background: #ccc;
   }
 
+}
+
+@media (min-width: 768px) {
+  #map { 
+    top: 92px; 
+    bottom: 2px;
+  }
 }

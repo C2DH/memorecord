@@ -5,6 +5,24 @@ layout: default
   <div id="map-wrapper"><div id='map'></div></div>
 </div>
 
+<div id='modal-slides' class="modal fade show" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    
+    <div class="modal-content">
+      <div class='close'>✕</div>
+      <div class="header">
+        <span class='date'></span>
+      </div>
+      <div class="modal-body">
+        <div class='description'></div>
+      </div>
+      <div class="footer text-center">
+        <div class='next'>{% assign key="open in"%}{% include t.html %} <span class='provider'></span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <script src='{{"/assets/js/modal-slides.js" | relative_url}}'></script>
 <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.js'></script>
 <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.css' rel='stylesheet' />
@@ -29,6 +47,13 @@ map.addControl(nav, 'bottom-right');
 
 console.log('euh...? {{ '/assets/data/records.json' | relative_url }}');
 
+var m = new ModalSlides({
+  modalSelector: '#modal-slides',
+  slideSelector: '.social-media-wrapper',
+  slideContainerSelector: '.social-media-container',
+  language: '{{page.lang}}'
+});
+
 map.on('load', function () {
 
   var bounds = {
@@ -48,6 +73,8 @@ map.on('load', function () {
       return d.geometry
     })
 
+    m.update(features);
+
     console.log(features)
     features.forEach(function(marker) {
       // create a DOM element for the marker
@@ -59,7 +86,8 @@ map.on('load', function () {
 
       el.addEventListener('click', function() {
         // window.alert(marker.properties.message);
-
+        console.log('goto:', marker)
+        m.goto(marker)
       });
       //lng
       if(marker.geometry.coordinates[0] <= bounds.minLng)
