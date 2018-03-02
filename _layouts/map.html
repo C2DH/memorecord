@@ -5,7 +5,7 @@ layout: default
   <div id="map-wrapper"><div id='map'></div></div>
 </div>
 
-
+<script src='{{"/assets/js/modal-slides.js" | relative_url}}'></script>
 <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.js'></script>
 <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.css' rel='stylesheet' />
 
@@ -23,6 +23,9 @@ var map = new mapboxgl.Map({
 });
 
 map.scrollZoom.disable();
+// Add zoom and rotation controls to the map.
+var nav = new mapboxgl.NavigationControl();
+map.addControl(nav, 'bottom-right');
 
 console.log('euh...? {{ '/assets/data/records.json' | relative_url }}');
 
@@ -38,6 +41,7 @@ map.on('load', function () {
   d3.json('{{ '/assets/data/records.json' | relative_url }}').then(function(data) {
     // refresh list of items.
 
+    // add m!!!
 
     // filter by geometry
     var features = data.filter(function(d) {
@@ -55,6 +59,7 @@ map.on('load', function () {
 
       el.addEventListener('click', function() {
         // window.alert(marker.properties.message);
+
       });
       //lng
       if(marker.geometry.coordinates[0] <= bounds.minLng)

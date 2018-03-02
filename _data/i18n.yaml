@@ -28,6 +28,11 @@ the stories:
   fr: lire les histoires
   pt: ler històrias
   it: leggi le storie
+map:
+  en: world map
+  fr: carte du monde
+  pt: mapa
+  it: mappa
 all stories:
   en: read stories
   fr: lire les histoires
