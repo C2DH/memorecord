@@ -16,7 +16,7 @@ body.stories{
   .modal-dialog{
     pointer-events: none;
     position: absolute;
-    top: 88px; //top: 155px; 
+    top: 65px; //top: 155px; 
     margin: 0;
     right: 15px;
     left: 15px;
@@ -40,6 +40,8 @@ body.stories{
     border-bottom-width: 0px;
         padding: 15px;
             margin-right: 50px;
+
+    font-weight: bold;
   }
 
   .modal-content{
@@ -70,6 +72,19 @@ body.stories{
         max-width: 50%;
         margin: 0 15px 15px 15px;
       }
+    }
+  }
+
+  .footer{
+    line-height: 40px;
+    padding: 0 10px;
+
+    .next{
+      border-top: 2px solid #ccc;
+    }
+    .provider a{
+      font-weight: bold;
+      border-bottom: 2px solid $almost-black;
     }
   }
 }

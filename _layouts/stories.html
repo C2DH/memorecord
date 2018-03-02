@@ -29,12 +29,9 @@ layout: default
       <div class="modal-body">
         <div class='description'></div>
       </div>
-      <div class="modal-footer">
-        next story
-        <div class='next'></div>
-      <div class='previous'></div>
+      <div class="footer text-center">
+        <div class='next'>{% assign key="open in"%}{% include t.html %} <span class='provider'></span></div>
       </div>
-      
     </div>
   </div>
 </div>
@@ -74,6 +71,7 @@ layout: default
       this._modal = d3.select(modalSelector);
       this._modal_title = this._modal.select('.description');
       this._modal_date = this._modal.select('.header .date');
+      this._modal_provider = this._modal.select('.provider');
       this._modal_close = this._modal.select('.close');
       this._container= d3.select(slideContainerSelector);
 
@@ -134,6 +132,7 @@ layout: default
       // fill html before showing the modal
       _self._modal_title.html('<img src="'+_self.selected.image+'" /><div class="inner">' + _self.selected.description + '</div>');
       _self._modal_date.text(_self.toLocaleDateString(_self.selected.date ));
+      _self._modal_provider.html('<a href="'+_self.selected.url + '" target="_blank">' + _self.selected.provider + '</a>');
       _self._modal.classed('show', true)
         .style('display', 'block');
     }
