@@ -16,7 +16,7 @@ Community participation is the soul of this crowdsourcing experiment. By taking 
 
 All the public posts on Facebook and Instagram tagged with the project’s hashtag  (#memorecord) will be gathered and displayed in our website gallery, under [Stories](https://c2dh.github.io/memorecord/stories/). The collection respects the privacy settings of the users and their original posts within Facebook and Instagram, therefore only posts that are open and public will be collected. If a post is deleted on Facebook or Instagram, it will be deleted on our gallery as well. 
 
-If you want to share something privately, you are also welcome to contact the project curator by [e-mail] (mailto:anita.lucchesi@uni.lu). 
+If you want to share something privately, you are also welcome to contact the project curator by [e-mail](mailto:anita.lucchesi@uni.lu). 
 
 # Why your participation matters? 
 
