@@ -6,7 +6,7 @@ link: /ask-the-historian/
 title: Ask the historian!
 ---
 
-Se você precisar de mais explicações sobre #memorecord, pergunte à curadora do projeto: [**Anita Lucchesi**] (mailto:anita.lucchesi@uni.lu).
+Se você precisar de mais explicações sobre #memorecord, pergunte à curadora do projeto: [**Anita Lucchesi**](mailto:anita.lucchesi@uni.lu).
 <!-- more -->
 ## Quem é Anita?
 
