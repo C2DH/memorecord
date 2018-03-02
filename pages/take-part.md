@@ -6,40 +6,20 @@ link: /take-part/
 title: Take part!
 ---
 
-Taking part in Memorecord is simple. Use your [Social Media](#social-media) - Facebook & Instagram, or via [email](#email).
+Community participation is the soul of this crowdsourcing experiment. By taking part in this collective project, your memories and personal accounts can help us to understand more about the historical aspects of migration in the Grand Duchy.
+
+#memorecord is collecting all posts related to memories of migration in Luxembourg. Join the harvest! Use #memorecord on your Facebook and Instagram posts.
 
 <!-- more -->
 
-# Via your Social Media - Facebook & Instagram
+# How #memorecord works?
 
-You just need to share your content using the project's hashtag #memorecord. Remember: Memocord is interested in stories and memories about migration in Luxembourg. So, when inspired to tell your story, of sharing a casual picture or video related to this topic, simply add #memocord to your post and Memocord 2.0 will find our content and bring it to the platform. 
+All the public posts on Facebook and Instagram tagged with the project’s hashtag  (#memorecord) will be gathered and displayed in our website gallery, under [Stories](https://c2dh.github.io/memorecord/stories/). The collection respects the privacy settings of the users and their original posts within Facebook and Instagram, therefore only posts that are open and public will be collected. If a post is deleted on Facebook or Instagram, it will be deleted on our gallery as well. 
 
-All the content tagged with the project hashtag will be gathered and displayed on this website and visitors of Memocord 2.0 will be able to interact (i.e. like, comment, share) all contents using their Instagram or Facebook credentials. 
+If you want to share something privately, you are also welcome to contact the project curator by [e-mail] (mailto:anita.lucchesi@uni.lu). 
 
-[Step by step illustration] 
+# Why your participation matters? 
 
-# Via PixStori
+One of the main questions #memorecord wants to answer is “What is behind and beyond the successful story of migration in Luxembourg?”. The more people participate, the more diverse our collection will be, the more plural and democratic our answer can be. 
 
-?
-
-# Via e-mail
-
-You can also send your contents directly via e-mail if you prefer or if you do not have Instagram or Facebook. You can submit your contents writing to memorecord@uni.lu. Anita, the project's curator, will get back to you within two working days. 
-
-The theme of the week - stay tuned / The week harvest! 
-
-If you follow our channels or you visit this website frequently, you will see that a different topic will be selected every week, for instance, cultural festivities, food, home, work, friendship and so on. 
-
-**Follow us:**
-Instagram: @memorecord
-Facebook: facebook.com/memorecord
-
-And, of course, you can also submit your content to the theme of the week per e-mail: memorecord@uni.lu.
-
-## Why your participation matters?
-
-This project has one big question as its North: What is behind and beyond the successful story of migration in Luxembourg?
-
-This questions is motivated by the fact that, not only in the public opinion, but also in Academia, we constantly find statements and evidence supporting the positive development of migration movements in the country. The original idea here is not making a research to merely prove or neglect something on this direction. The objective of the collection to be built through the Memorecord's crowdsourcing is not saying whether this "success story" is true or false, good or bad. The interest in looking behind and beyond this is trying to understand, in a more qualitative, holistic way, what else than good economic markers and the harmonious living together have been playing a role for Luxembourg becoming such a particular case of migration in the world. 
-
-We learn from different studies that migration, as an old global phenomenon, is a process that may be full of non-dits  ruptures (...) TBC
+#memorecord welcomes Luxembourgers and migrants of all nationalities to share their memories about migration in the  Grand Duchy. All languages are welcome. Add your piece to this mosaic of memories. Join the harvest! 
