@@ -11,7 +11,7 @@ div.social-media{
   &:hover, &.active{
     border-color:  $yellow;
     .image-wrapper > .image{
-      filter: grayscale(0); 
+      // filter: grayscale(0); 
     }
   }
 
@@ -30,13 +30,13 @@ div.social-media{
       color: transparent;
       background-size: cover;
     
-      -webkit-transition: .21s -webkit-filter linear;
-      -moz-transition: .21s -moz-filter linear;
-      -moz-transition: .21s filter linear;
-      -ms-transition: .21s -ms-filter linear;
-      -o-transition: .21s -o-filter linear;
-      transition: .21s filter linear, .21s -webkit-filter linear;
-      filter: grayscale(.7);
+      // -webkit-transition: .21s -webkit-filter linear;
+      // -moz-transition: .21s -moz-filter linear;
+      // -moz-transition: .21s filter linear;
+      // -ms-transition: .21s -ms-filter linear;
+      // -o-transition: .21s -o-filter linear;
+      // transition: .21s filter linear, .21s -webkit-filter linear;
+      // filter: grayscale(.7);
       
     }
     

@@ -48,18 +48,9 @@ layout: default
     padding-top: 30px; padding-bottom: 30px;
     margin-bottom: 2px;'>
   <div class='container'>
-    <div class="row">
-    {% if site.data.documents %}
-    {% assign docs=site.data.documents %}
-    {% else %}
-    {% assign docs=site.data.documentsdemo %}
-    {% endif %}
+    <div class="row social-media-container">
+      
 
-    {% for media in docs limit: 4 %}
-      <div class='col-3'>
-      {% include social-media.html %}
-      </div>
-    {% endfor %}
     </div>
     <div class='row'>
       <div class='col text-center'>
@@ -70,6 +61,26 @@ layout: default
                   {% endif %}>
           {% assign key="all stories"%}{% include t.html %}
         </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src='{{"/assets/js/modal-slides.js" | relative_url}}'></script>
+
+<div id='modal-slides' class="modal fade show" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    
+    <div class="modal-content">
+      <div class='close'>✕</div>
+      <div class="header">
+        <span class='date'></span>
+      </div>
+      <div class="modal-body">
+        <div class='description'></div>
+      </div>
+      <div class="footer text-center">
+        <div class='next'>{% assign key="open in"%}{% include t.html %} <span class='provider'></span></div>
       </div>
     </div>
   </div>
@@ -117,7 +128,7 @@ layout: default
         }, delta);
     };
 
-    window.onload = function() {
+    function initTxtType() {
         var elements = document.getElementsByClassName('typewrite');
         for (var i=0; i<elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');
@@ -132,4 +143,24 @@ layout: default
         css.innerHTML = ".typewrite > .wrap { border-right: 4px solid #FAF54F}";
         document.body.appendChild(css);
     };
+
+    document.addEventListener("DOMContentLoaded", function(e) {
+      initTxtType();
+
+      var m = new ModalSlides({
+        modalSelector: '#modal-slides',
+        slideSelector: '.social-media-wrapper',
+        slideContainerSelector: '.social-media-container',
+        language: '{{page.lang}}'
+      });
+      d3.json('{{ '/assets/data/records.json' | relative_url }}').then(function(data) {
+        // clean data here
+        m.update(data.slice(0,4));
+      })
+      // d3.selectAll('.social-media').on('click', function(){
+      //   m.show();
+      // })
+      
+    })
+  
 </script>

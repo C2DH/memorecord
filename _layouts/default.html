@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css?v=' | relative_url }}" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
       
-    
+     <script src='{{ '/assets/js/d3.min.js' | relative_url }}'></script>
 </head>
 <body class='{{page.layout}}'>
   {% include nav.html %}
@@ -21,6 +21,6 @@
 
 
   {% include footer.html %}
-  <script src='{{ '/assets/js/d3.min.js' | relative_url }}'></script>
+ 
 </body>
 </html>
