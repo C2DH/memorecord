@@ -6,6 +6,10 @@ link: /privacy/
 title: Privacy
 ---
 
-Taking part in Memorecord is simple. Use your [Social Media](#social-media) - Facebook & Instagram, or via [email](#email).
+Memorecord respects the privacy settings of the users and their original posts within Facebook and Instagram. Only posts that are open and public will be collected and displayed on this website. Memorecord will not access any kind of private posts. 
+
+By adding the hashtag of the project (#memorecord) to their public posts, users are joining the #memorecord harvest. A link and a preview of the post are displayed on the #memorecord gallery under [Stories](https://c2dh.github.io/memorecord/stories/), the original post may be consulted directly on Facebook or Instagram. If, at any point, a post is deletec by the users in their social media accounts, it will also be deleted on the #memorecords gallery.
+
+In case of any doubts, please contact [Anita Lucchesi](mailto:anita.lucchesi@uni.lu), the project curator. 
 
 <!-- more -->
