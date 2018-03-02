@@ -2,34 +2,47 @@ index:
   en: home
   fr: accueil
   pt: começo
+  it: home
 the project:
   en: the project
   fr: le projet
   pt: o projeto
+  it: il progetto
 take part:
   en: take part
   fr: participer
   pt: participar
+  it: partecipa
 ask the historian:
   en: ask the historian
   fr: demande à l'historien
   pt: preguntar ao historiador
+  it: chiedi al ricercatore
 collection days:
   en: collection days
   fr: jour de recolte
   pt: dia de collecta
+  it: "collection days"
 the stories:
   en: read stories
   fr: lire les histoires
   pt: ler històrias
+  it: leggi le storie
+all stories:
+  en: read stories
+  fr: lire les histoires
+  pt: ler històrias
+  it: leggi le storie
 privacy:
   en: privacy
   fr: confidentialité des données
   pt: privacidade
+  it: privacy
 languages:
   en: languages
   fr: languages
   pt: languages
+  it: scelta lingua
 close menu:
   en: close menu
   fr: fermer
@@ -40,15 +53,19 @@ headlines:
     en: is aimed at collecting memories of migration in Luxembourg
     fr: collect des memoires de la migration au Luxembourg
     pt: visa a recolher memorias de migração no Luxemburgo
+    it: raccoglie le storie di migrazioni in Luxemburgo
   -
     en: is a simple hashtag
     fr: est un hashtag simple
     pt: é uma simples hashtag
+    it: è facile come una hashtag
   -   
     en: is a digital memory shoebox
     fr: est une une boîte à trésor 
     pt: é uma caixa de memórias digital
+    it: è una scatola delle meraviglie
   -   
     en: is a digital public history project
     fr: est un projet d'histoire publique numérique
     pt: é um projecto de história digital
+    it: è un progetto di storia digitale
