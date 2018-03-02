@@ -34,12 +34,19 @@ body{
 }
 
 .excerpt{
-  font-size: 2em;
-  margin-top: 2em;
-  margin-bottom: 1em;
-
-
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
+
+@media (min-width: 768px) {
+  .excerpt{ 
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+}
+
 
 .contents {
   font-size: 1.6em;

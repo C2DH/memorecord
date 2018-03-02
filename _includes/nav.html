@@ -1,3 +1,21 @@
+<nav id='navbar-mobile'>
+  <div class='bottom'>
+    <a class="navbar-brand" style='margin-right: 0'>
+     <img  src='{{ "assets/images/unilu-logo.png" | relative_url}}' alt='University of Luxembourg'>
+    </a>
+    <a class="navbar-brand" href="{{'/' | absolute_url}}">
+      <img src='{{ "assets/images/memorecord-logo.png" | relative_url}}' alt='{{site.title}}'>
+    </a>
+    <div class='toggler'></div>
+    <ul class="navbar-nav languages" style='margin-left: 2px;'>
+      {% for lang in site.languages %}
+      <li class="nav-item {% if lang == page.lang %} active {% endif %}">
+        <a class="nav-link" {% if lang == site.default_lang %} href='{{page.link | absolute_url}}' {% else %} href='{{lang | absolute_url}}{{page.link}}' {% endif %}>{{lang}}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
 
   <nav class="navbar fixed-top absolute-top navbar-expand-lg navbar-light navbar-primary">
     <div class="container">

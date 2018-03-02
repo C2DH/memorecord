@@ -1,15 +1,30 @@
 h1.headline {
-  margin-top: 100px;
-  margin-right: 2.5rem;
+  margin-top: 18px;
+  margin-right: 0;
+  font-size: 2em;
   > span{
     background-color: $white;
   }
 }
 
-.index .fullsized{
-  margin-top: 90px;
+@media (min-width: 768px) {
+  body h1.headline {
+    margin-top: 100px;
+    margin-right: 2.5rem;
+    font-size: 2.5em;
+  }
 }
 
+
+body.index .fullsized{
+  margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+  body.index .fullsized{
+    margin-top: 90px;
+  }
+}
 
 a.big{
       border-bottom: 2px solid #151515;
@@ -29,8 +44,24 @@ video.video-background {
   left: 0%;
 }
 
+
+@media (min-width: 768px) {
+  body.index .fullsized {
+    height: 75%;
+
+    & > .left, & > .right{
+      position: absolute;
+      width: 50%;
+      height: 100%;
+    }
+    & > .right{
+      top: 0;
+      left: 50%
+    }
+  }
+}
 .fullsized{
-  height: 75%;
+  height: 120%;
   position: relative;
   background-color: white;
   
@@ -38,27 +69,20 @@ video.video-background {
     margin-top: 2.5rem;
   }
 
-  
-
-
   & > .left, & > .right{
     position: absolute;
-    height: 100%;
-    width: 50%;
+    height: 50%;
+    width: 100%; // see media query
     overflow:hidden;
 
   }
   & > .right{
-    left: 50%;
-    
+    top: 50%;
+    left: 0%;
+    height: 50%;
   }
 
-  // & > .left{
-  //   video{
-  //     height: auto;
-  //     width: 200%;
-  //   }
-  // }
+
   &.opposite{
     background: #141516;
   

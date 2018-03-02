@@ -121,3 +121,59 @@
 .logo-wrapper img{
   height: 4rem;
 }
+
+
+
+
+// navbar mobile
+#navbar-mobile{
+  position: fixed;
+  z-index: 10;
+  background-color: $yellow;
+  top: -100%;
+  height: 100%;
+  width: 100%;
+  transition: transform .21s ease-in-out;
+  &.active{
+    transform: translate(0, 100%);
+  }
+
+  .bottom{
+    position: absolute;
+    height: 50px;
+    bottom: -50px;
+    width: 100%;
+    overflow: hidden;
+    background-color: $yellow;
+
+    
+
+    
+  }
+
+  .toggler{
+    position:absolute;
+    top: 5px;
+    left: 50%;
+    height:40px;
+    width: 40px;
+    margin-left: -20px;
+    border-radius: 40px;
+    overflow: hidden;
+  }
+
+  .navbar-brand{
+      padding: 5px 0 5px 5px;
+
+      > img{
+        height: 40px;
+      }
+    }
+}
+
+@media (min-width: 768px) {
+  #navbar-mobile{
+    display: none;
+  }
+}
+
