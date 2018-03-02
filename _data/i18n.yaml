@@ -20,13 +20,13 @@ ask the historian:
   it: chiedi al ricercatore
 collection days:
   en: collection days
-  fr: jour de recolte
-  pt: dia de collecta
-  it: "collection days"
+  fr: journée de recolte
+  pt: dia de coleta
+  it: giornate di raccolta
 the stories:
   en: read stories
   fr: lire les histoires
-  pt: ler històrias
+  pt: ler as histórias
   it: leggi le storie
 map:
   en: world map
@@ -45,13 +45,13 @@ privacy:
   it: privacy
 languages:
   en: languages
-  fr: languages
-  pt: languages
+  fr: langues
+  pt: línguas
   it: scelta lingua
 close menu:
   en: close menu
   fr: fermer
-  pt: cerrar
+  pt: fechar
   it: chiudi
 headlines:
   -
