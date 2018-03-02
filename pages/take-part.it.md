@@ -16,7 +16,7 @@ La partecipazione della comunità è l'anima di questo esperimento di crowdsourc
 
 Tutti i post pubblici su Facebook e Instagram taggati con l'hashtag del progetto (#memorecord) verranno raccolti e visualizzati nella nostra galleria del sito web, sotto [Storie](https://c2dh.github.io/memorecord/stories/). La raccolta rispetta le impostazioni sulla privacy degli utenti e i loro post originali all'interno di Facebook e Instagram, quindi solo i post aperti e pubblici saranno raccolti. Se un post viene eliminato su Facebook o Instagram, verrà eliminato anche nella nostra galleria.
 
-Se vuoi condividere qualcosa in privato, non esitare a contattare il curatore del progetto tramite [e-mail] (mailto: anita.lucchesi@uni.lu).
+Se vuoi condividere qualcosa in privato, non esitare a contattare il curatore del progetto tramite [e-mail](mailto: anita.lucchesi@uni.lu).
 
 # Perché la tua partecipazione è importante?
 
