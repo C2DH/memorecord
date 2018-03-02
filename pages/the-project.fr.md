@@ -6,40 +6,24 @@ link: /the-project/
 title: Le projet
 ---
 
+**Memorecord** est un projet d'histoire publique numérique. Il rassemble **la participation communautaire et l'effort académique** pour présenter un autre regard sur l'histoire de la migration au Luxembourg. Il profite des nouvelles technologies de la communication pour aborder l'histoire de manière collaborative.
 
-**Memorecord** is a digital public history project curated by Anita Lucchesi, an Italo-Brazilian historian at the Center for Contemporary and Digital History (University of Luxembourg), who is doing her PhD about the implications of digital tools and methods in history and have memories of migration in Luxembourg as her empirical subject. 
 
 <!-- more -->
 
-**Memorecord** is aimed at collecting personal stories and memories about migration in Luxembourg shared on the web while experimenting the method of crowdsourcing sources for History.  
-
-The goal of this experiment is bringing together **community participation and academic effort** for presenting another view on the history of migration in Luxembourg, based on the crowdsourced multimedia material collected via this the project's channels: Instagram (@memorecord), Facebook (www.facebok.com/memocorecord) and this website, all assembled via the hashtag #memorecord. 
-
-Ideally, this crowdsourcing experiment will result in an original collection which will be the basis for Anita's PhD research. The expectation is to find as much as stories as possible, adding different voices and experiences to the primary material that Anita will analyze in her doctoral thesis. 
-
-Would you like to help Anita on building this collection? Learn how to participate here **insert link**. 
-
-*Note: the official crowdsourcing experiment might last until 30 June 2018 because, as it is part of an on going PhD research, at a certain point it will have to have an end. Anyway, the hashtag is public and there is absolutely no problem if there is spontaneous use of it, as many things on the web, it may have a natural continuity.*
+La participation communautaire est l'âme de cette expérience de *crowdsourcing*. [**Participez!**](https://c2dh.github.io/memorecord/take-part/) Votre mémoires et comptes personnels peuvent nous aider à mieux comprendre les aspects historiques de la migration au Grand-Duché.
 
 
+## Arrière-plan académique
 
-## Academic background
+Ce site fait partie du projet de recherche intitulé Forger une plateforme de mémoire numérique sur les récits de migration: un projet d'histoire publique sur les mémoires de migration au Luxembourg, dirigé par Anita Lucchesi au [**Centre d'Histoire Contemporaine et Numérique**](https://www.c2dh.uni.lu/) ([Université du Luxembourg](https://www.uni.lu/), et financé par le [Fonds national de la recherche, Luxembourg](https://www.fnr.lu).
 
-This website is part of the PhD research project entitled *Shaping a digital memory platform on migration narratives: A public history project on migration memories in Luxembourg*, conducted by Anita Lucchesi in the [**Center for Contemporary and Digital History**](https://www.c2dh.uni.lu/) ([University of Luxembourg](https://www.uni.lu/), and funded by the  [National Research Fund, Luxembourg](https://www.fnr.lu).
+La recherche vise à étudier les mémoires et les récits migratoires au Luxembourg en combinant un cadre pluriel d'histoire culturelle avec une analyse historique systématique des souvenirs médiatisés des migrants au Grand-Duché. En abordant le sujet du point de vue de l'Histoire d'en bas et en utilisant un appareil méthodologique innovant basé sur des méthodes d'histoire publique numérique, cette recherche devrait trouver une alternative à la narration numérique. Outre la thèse de doctorat, l'un des principaux résultats de ce projet de recherche est la création, en collaboration avec la communauté, de la plate-forme Memorecord pour une narration numérique alternative sur la migration au Luxembourg, visant à partager les souvenirs des différentes générations et communautés. , nous l'espérons, en allant au-delà du récit maître sur la migration au Luxembourg, nous le savons déjà. Qu'est-ce qui se cache derrière et au-delà de l'histoire réussie de la migration au Luxembourg?
 
-The research aims at studying migration memories and narratives in Luxembourg combining a plural cultural history framework with a systematical historical analysis of the mediated memories of migrants in the Grand Duchy. Approaching the subject from the perspective of History from Below and using an innovative methodological apparatus built on oral history and digital public history methods this research expects to encounter an alternative way of storytelling through digital technology, engaging community members with acknowledgment to their own agency as historical actors. To access and interpret the migration narratives of diverse generations of migrants in Luxembourg, the project will employ a digital toolkit which will be tested in the examination of different bodies of sources (egodocuments, oral history, online published material), enabling a “scalable reading” text analysis of the whole corpora. One of the main outcomes of this project, besides the PhD thesis itself, is the shaping, in collaboration with the community, of Memorecord platform for an alternative digital storytelling about migration in Luxembourg, aiming at sharing memories of different generations and communities online and, hopefully, going beyond the master narrative about migration in Luxembourg we already know. What is behind and beyond the successful story of migration in Luxembourg?
+Le processus de construction et d'exploitation de cette plate-forme comme un exemple de l'histoire publique avec les moyens d'outils et de technologies numériques est le défi empirique central de ce projet. La plate-forme permettra de tester des méthodes numériques (crowdsourcing, web scraping, analyse de médias sociaux, lecture à distance, modélisation de sujets) pour faire l'histoire numérique en ligne et de s'engager activement avec les sujets intéressés de l'étude. Ce faisant, le projet vise à contribuer à l'historiographie luxembourgeoise sur la migration, ainsi qu'à réfléchir sur les débats méthodologiques et épistémologiques dans le domaine de l'histoire publique numérique / humanités numériques, en évaluant l'effet des méthodes numériques et les spécificités des critique de source numérique à l'opération historiographique.
 
-The process of building and running this platform as an example of doing public history with the means of digital tools and technologies is the central empirical challenge of this project. The platform will allow testing digital methods (i.e. crowdsourcing, web scraping, social media analysis, distant reading, topic modeling) for doing digital history online and to actively engage with the “object of study” itself. By doing so, the projects aims at contributing to the Luxembourgish historiography on migration, as well as to reflect on the methodological and epistemological debates in the field of digital public history / digital humanities, by evaluating the effect of digital enabled methods and the specificities of digital source criticism to the historiographical operation.
+La proposition de recherche originale, soumise au Fonds national pour la recherche Luxembourg, peut être trouvée [ici](https://historiografianarede.files.wordpress.com/2015/10/lucchesi-fnr.pdf)
 
-The original research proposal, submitted to the National Funds for Research Luxembourg, can be found [here](https://historiografianarede.files.wordpress.com/2015/10/lucchesi-fnr.pdf). 
-
-## Who is Anita?
-
-**Project curator**
-
-Anita Lucchesi is a PhD Candidate in Digital and Public History at the Center for Contemporary and Digital History ([University of Luxembourg](https://www.uni.lu/)), with a project supported by the [National Research Fund, Luxembourg](https://www.fnr.lu) (AFR-FNR PhD Grant, PhD project retained for funding from 2015 to 2018). Master in Comparative History by the [Federal University of Rio de Janeiro](https://www.ufrj.br/), with a degree in History by the same University. Anita’s Bachelors Monograph on the relationship between History and New Media won a prize from the Brazilian  Society for Theory and History of Historiography has been published as an [eBook](http://www.sbthh.ufop.br/arquivo/download?ID_ARQUIVO=18). Her Master Thesis compared the developments of Digital history/Digital Historiography in Italy and United States between 2001-2011. In Luxembourg, she is conducting doctoral project on migrant memories and narratives in the Grand Duchy, using digital public history methods to gather and analyse the historical sources, as well as to engage the interested community in the project. Anita is also member of the administration board of the [Centre de Documentation sur les Migrations Humaines](https://www.cdmh.lu/), member of the outreach committee of the [Rede Brasileira de História Pública](http://historiapublica.com.br/) and treasurer of the [International Federation for Public History](http://ifph.hypotheses.org/).
-
-Check out [Anita's profile on C2DH](https://www.c2dh.uni.lu/people/anita-lucchesi) to check her publications.  
 
 
 
