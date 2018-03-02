@@ -6,6 +6,6 @@ link: /stories/
 title: Le storie
 ---
 
-**wooo the gallery!** 
+**La raccolta #memorecord** 
 <!-- more -->
-and a subtitle.
+
