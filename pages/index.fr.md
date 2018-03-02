@@ -6,6 +6,5 @@ link: /
 title: Join the harvest (fr)
 ---
 
-bonjour!
+Rejoignez la récolte! Utilisez #memorecord sur vos publications Facebook et Instagram.
 <!-- more -->
-weekly challenge..
