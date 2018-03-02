@@ -32,15 +32,18 @@ languages:
   pt: languages
 headlines:
   -
-    en: is aimed at collecting personal stories
-    fr: blobobo 1
-    pt: lalalal ler històrias
+    en: is aimed at collecting memories of migration in Luxembourg
+    fr: collect des memoires de la migration au Luxembourg
+    pt: visa a recolher memorias de migração no Luxemburgo
   -
-    en: is aimed at collecting personal memories about migration in Luxembourg
-    fr: blobobo 2
-    pt: lalalal ler històrias
-  -
-    en: is a simple tag
-    fr: blobobo 3
-    pt: lalalal ler històrias
-
+    en: is a simple hashtag
+    fr: est un hashtag simple
+    pt: é uma simples hashtag
+  -   
+    en: is a digital memory shoebox
+    fr: est une une boîte à trésor 
+    pt: é uma caixa de memórias digital
+-   
+    en: is a digital public history project
+    fr: est un projet d'histoire publique numérique
+    pt: é um projecto de história digital
