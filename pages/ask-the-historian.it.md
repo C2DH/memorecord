@@ -3,7 +3,7 @@ layout: page
 lang: it
 permalink: /it/ask-the-historian/
 link: /ask-the-historian/
-title: chiedi alla storica!
+title: Chiedi alla storica!
 ---
 
 Se hai bisogno di ulteriori spiegazioni su #memorecord chiedi al curatore del progetto: [**Anita Lucchesi**](mailto:anita.lucchesi@uni.lu).
