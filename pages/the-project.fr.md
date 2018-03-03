@@ -11,7 +11,7 @@ title: Le projet
 
 <!-- more -->
 
-La participation communautaire est l'âme de cette expérience de *crowdsourcing*. [**Participez!**](https://c2dh.github.io/memorecord/take-part/) Votre mémoires et comptes personnels peuvent nous aider à mieux comprendre les aspects historiques de la migration au Grand-Duché.
+La participation communautaire est l'âme de cette expérience de *crowdsourcing*. [**Participez!**](https://c2dh.github.io/memorecord/take-part/) Vos mémoires et comptes personnels peuvent nous aider à mieux comprendre les aspects historiques de la migration au Grand-Duché.
 
 
 ## Background académique
