@@ -3,7 +3,7 @@ layout: page
 lang: fr
 permalink: /fr/ask-the-historian/
 link: /ask-the-historian/
-title: Ask the historian!
+title: Demander à l'historienne!
 ---
 
 Si vous avez besoin de plus d'explications sur #memorecord, demandez au commissaire du projet: [**Anita Lucchesi**] (mailto: anita.lucchesi@uni.lu).
