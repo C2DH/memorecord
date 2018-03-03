@@ -59,12 +59,13 @@
     }
 
     this.hide = function(){
-      if(!_self.is_empty) {
+      // if(!_self.is_empty) {
         
-        if(_self.selected)
-          _self._selected.classed('active', false)
-        return;
-      }
+      //   return;
+      // }
+      if(_self._selected)
+        _self._selected.classed('active', false)
+        
 
       _self._modal.classed('show', false)
         .transition()
