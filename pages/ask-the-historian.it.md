@@ -3,15 +3,15 @@ layout: page
 lang: it
 permalink: /it/ask-the-historian/
 link: /ask-the-historian/
-title: Ask the historian!
+title: chiedi alla storica!
 ---
 
-If you need more explanations about #memorecord ask the project curator: [**Anita Lucchesi**](mailto:anita.lucchesi@uni.lu).
+Se hai bisogno di ulteriori spiegazioni su #memorecord chiedi al curatore del progetto: [**Anita Lucchesi**](mailto:anita.lucchesi@uni.lu).
 
 <!-- more -->
 
 ## Who is Anita?
 
-Anita is a PhD Candidate in Digital and Public History at the [Center for Contemporary and Digital History](https://www.c2dh.uni.lu/) ([University of Luxembourg](https://www.uni.lu/)), with a project supported by the [National Research Fund, Luxembourg](https://www.fnr.lu) (AFR-FNR PhD Grant, PhD project retained for funding from 2015 to 2018). Master in Comparative History by the Federal University of Rio de Janeiro, with a degree in History by the same University. Anita’s Bachelors Monograph on the relationship between History and New Media won a prize from the Brazilian Society for Theory and History of Historiography has been published as an eBook. Her Master Thesis compared the developments of Digital history/Digital Historiography in Italy and United States between 2001-2011. In Luxembourg, she is conducting doctoral project on migrant memories and narratives in the Grand Duchy, using digital public history methods to gather and analyse the historical sources, as well as to engage the interested community in the project. Anita is also member of the administration board of the [Centre de Documentation sur les Migrations Humaines]((https://www.fnr.lu)), member of the outreach committee of the [Rede Brasileira de História Pública](http://historiapublica.com.br/) and treasurer of the [International Federation for Public History](http://ifph.hypotheses.org/).
+Anita è una dottoranda in digital public historya al [*Centre for Contemporary and Digital History*](https://www.c2dh.uni.lu/) ([Università del Lussemburgo](https://www.uni.lu/)), con un progetto sostenuto dal [*Luxembourg National Fund*](https://www.fnr.lu) (borsa di dottorato AFR-FNR, progetto di dottorato mantenuto per finanziamento dal 2015 al 2018). Master in Storia comparata presso l'Università Federale di Rio de Janeiro, con una laurea in Storia presso la stessa Università. Anita's Bachelors Monograph sul rapporto tra storia e nuovi media vinto un premio dalla Società brasiliana per la teoria e la storia della storiografia è stato pubblicato come un eBook. La sua tesi di laurea ha confrontato gli sviluppi della storia digitale / storiografia digitale in Italia e negli Stati Uniti tra il 2001-2011. In Lussemburgo, sta conducendo un progetto di dottorato sulle memorie e le narrative dei migranti nel Granducato, utilizzando metodi digitali di storia pubblica per raccogliere e analizzare le fonti storiche, nonché coinvolgere la comunità interessata nel progetto. Anita è anche membro del consiglio di amministrazione del [*Centre de Documentation sur les Migrations Humaines*]((https://www.cdmh.lu)), membro del comitato di sensibilizzazione della [*Rede Brasileira de História Pública*] (http: //historiapublica.com.br/) e tesoriere della [*International Federation for Public History*] (http://ifph.hypotheses.org/).
 
-Check out [Anita’s profile on C2DH website](https://www.c2dh.uni.lu/people/anita-lucchesi) to check her publications.
+Controlla [il profilo di Anita sul sito C2DH](https://www.c2dh.uni.lu/people/anita-lucchesi) per controllare le sue pubblicazioni.
