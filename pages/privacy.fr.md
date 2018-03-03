@@ -3,7 +3,7 @@ layout: page
 lang: fr
 permalink: /fr/privacy/
 link: /privacy/
-title: Privacy
+title: Confidentialité des données
 ---
 
 Memorecord respecte les paramètres de confidentialité des utilisateurs et leurs messages originaux sur Facebook et Instagram. Seuls les messages ouverts et publics seront collectés et affichés sur ce site. Memorecord n'aura accès à aucun type de message privé.
