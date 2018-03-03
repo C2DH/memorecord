@@ -21,7 +21,7 @@ A pesquisa visa estudar memórias e narrativas de migração no Luxemburgo combi
 
 O processo de construção e execução desta plataforma como um exemplo de fazer história pública com os meios de ferramentas e tecnologias digitais é o desafio empírico central desse projeto. A plataforma permitirá testar métodos digitais (por exemplo, crowdsourcing, *web scraping*, análise de redes sociais, leitura distante, *topic modeling*) para fazer história digital on-line e se envolver ativamente com os sujeitos do estudo. Ao fazê-lo, o projeto visa contribuir para a historiografia luxemburguesa sobre migração, bem como refletir sobre os debates metodológicos e epistemológicos no campo da história pública digital / humanidades digitais, avaliando o efeito de métodos habilitados digitais e as especificidades de crítica de fontes digitais à operação historiográfica.
 
-A proposta de pesquisa original, apresentada aos National Funds for Research Luxembourg, pode ser encontrada [aqui] (https://historiografianarede.files.wordpress.com/2015/10/lucchesi-fnr.pdf).
+A proposta de pesquisa original, apresentada aos National Funds for Research Luxembourg, pode ser encontrada [aqui](https://historiografianarede.files.wordpress.com/2015/10/lucchesi-fnr.pdf).
 
 
 
