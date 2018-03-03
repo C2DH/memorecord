@@ -22,7 +22,7 @@ La recherche vise à étudier les mémoires et les récits migratoires au Luxemb
 
 Le processus de construction et d'exploitation de cette plate-forme comme un exemple de l'histoire publique avec les moyens d'outils et de technologies numériques est le défi empirique central de ce projet. La plate-forme permettra de tester des méthodes numériques (*crowdsourcing*, *web scraping*, analyse de reseaux sociaux, lecture à distance, *topic modeling*) pour faire l'histoire numérique en ligne et de s'engager activement avec les sujets intéressés de l'étude. Ce faisant, le projet vise à contribuer à l'historiographie luxembourgeoise sur la migration, ainsi qu'à réfléchir sur les débats méthodologiques et épistémologiques dans le domaine de l'histoire publique numérique / humanités numériques, en évaluant l'effet des méthodes numériques et les spécificités des critique de source numérique à l'opération historiographique.
 
-La proposition de recherche originale, soumise au Fonds national pour la recherche Luxembourg, peut être trouvée [ici](https://historiografianarede.files.wordpress.com/2015/10/lucchesi-fnr.pdf)
+La proposition de recherche originale, soumise au Fonds national pour la recherche Luxembourg, peut être trouvée [ici](https://historiografianarede.files.wordpress.com/2015/10/lucchesi-fnr.pdf).
 
 
 
