@@ -3,7 +3,7 @@ layout: page
 lang: pt
 permalink: /pt/take-part/
 link: /take-part/
-title: Take part!
+title: Participar!
 ---
 
 A participação da comunidade é a alma desse experimento de *crowdsourcing*. Ao participar deste projeto coletivo, suas memórias e histórias pessoais podem nos ajudar a entender mais sobre os aspectos históricos da migração no Grão-Ducado.
