@@ -6,7 +6,7 @@ link: /the-project/
 title: O projeto
 ---
 
-**Memorecord** é um projeto de histórico público digital. Reúne **participação comunitária e esforço acadêmico** para apresentar outra visão sobre a história da migração no Luxemburgo. Aproveita as novas tecnologias de comunicação para abordar a história de forma colaborativa.
+**Memorecord** é um projeto de história pública digital. Reúne **participação comunitária e esforço acadêmico** para apresentar outra visão sobre a história da migração no Luxemburgo. Aproveita as novas tecnologias de comunicação para abordar a história de forma colaborativa.
 
 <!-- more -->
 
