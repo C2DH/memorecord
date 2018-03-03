@@ -3,11 +3,11 @@ layout: page
 lang: it
 permalink: /it/collection-days/
 link: /collection-days/
-title: Collection Days
+title: Gionate di raccolta
 ---
-If you feel like sharing your memories face-to-face or if you have pictures, old documents, and objects that you would like to add to your story, join one of the Exchange & Collection Days with #memorecord. 
+Se hai voglia di condividere i tuoi ricordi faccia a faccia o se hai foto, vecchi documenti ed oggetti che vorresti aggiungere alla tua storia, partecipa a una delle giornate di raccolta e scambio con #memorecord.
 
-The events will be announced on this page, as well as on the project’s social media. 
+Gli eventi saranno annunciati su questa pagina, ed anche sui social media del progetto.
 
 
 <!-- more -->
