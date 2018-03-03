@@ -6,7 +6,7 @@ link: /ask-the-historian/
 title: Demander à l'historienne!
 ---
 
-Si vous avez besoin de plus d'explications sur #memorecord, demandez au commissaire du projet: [**Anita Lucchesi**] (mailto: anita.lucchesi@uni.lu).
+Si vous avez besoin de plus d'explications sur #memorecord, demandez au commissaire du projet: [**Anita Lucchesi**](mailto:anita.lucchesi@uni.lu).
 
 <!-- more -->
 
