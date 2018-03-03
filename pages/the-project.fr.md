@@ -14,7 +14,7 @@ title: Le projet
 La participation collective est l'âme de cette expérience de *crowdsourcing*. [**Participez!**](https://c2dh.github.io/memorecord/take-part/) Vos mémoires et vos récit peuvent nous aider à mieux comprendre les aspects historiques de la migration au Grand-Duché.
 
 
-## Background académique
+## Contexte académique
 
 Ce site fait partie du projet de recherche intitulé *Shaping a digital memory platform on migration narratives: A public history project on migration memories in Luxembourg*, dirigé par Anita Lucchesi au [**Centre for Contemporary and Digital History**](https://www.c2dh.uni.lu/), [Université du Luxembourg](https://www.uni.lu/), et financé par le [Fonds National de la Recherche, Luxembourg](https://www.fnr.lu).
 
