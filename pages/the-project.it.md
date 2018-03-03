@@ -3,7 +3,7 @@ layout: page
 lang: it
 permalink: /it/the-project/
 link: /the-project/
-title: The project
+title: Il progetto
 ---
 
 **Memorecord** è un progetto di *digital public history*. Riunisce **la partecipazione della comunità e lo sforzo accademico** per presentare un altro punto di vista sulla storia della migrazione in Lussemburgo. Sfrutta le nuove tecnologie di comunicazione per avvicinarsi alla storia in modo collaborativo. 
