@@ -14,7 +14,7 @@ La participation collective est l'âme de cette expérience de *crowdsourcing*. 
 
 # Comment fonctionne #memorecord?
 
-Tous les publication publics sur Facebook et Instagram marqués avec le hashtag du projet (#memorecord) seront rassemblés et affichés dans la galerie de notre site, sous [lire les histoires](https://c2dh.github.io/memorecord/stories/). La collection respecte les paramètres de confidentialité des utilisateurs et leurs messages originaux sur Facebook et Instagram, donc seuls les publication ouverts et publics seront collectés. Si un post est supprimé sur Facebook ou Instagram, il sera également supprimé dans notre galerie.
+Tous les publication publics sur Facebook et Instagram marqués avec le hashtag du projet (#memorecord) seront seront partagés dans nos réseaux sociaux, rassemblés et affichés dans la galerie de notre site, sous [lire les histoires](https://c2dh.github.io/memorecord/stories/). La collection respecte les paramètres de confidentialité des utilisateurs et leurs messages originaux sur Facebook et Instagram, donc seuls les publication ouverts et publics seront collectés. Si un post est supprimé sur Facebook ou Instagram, il sera également supprimé dans nos réseaux sociaux et notre galerie.
 
 Si vous souhaitez partager quelque chose en privé, vous pouvez également contacter le conservateur du projet par [e-mail](mailto: anita.lucchesi@uni.lu).
 
