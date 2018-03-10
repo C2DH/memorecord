@@ -99,8 +99,9 @@ async.waterfall([
           _d.date = moment(d.date, 'X').format('YYYY-MM-DD');
 
           // later with javascrip Date object do: d=neww Date() d.toLocaleDateString('fr-FR', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
-        } else if (d.created_time) {
-          _d.date = moment(d.created_time).format('YYYY-MM-DD');
+        } else if (d.parsed_time) {
+          //console.log(d)
+          _d.date = moment(d.parsed_time, 'YYYY-MM-DD').format('YYYY-MM-DD');
         }
 
         // console.log(d, _d)

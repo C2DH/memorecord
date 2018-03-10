@@ -2,7 +2,7 @@
 # json otuput for the weekly tags...
 ---
 {% if site.data.documents %}
-{% assign docs = site.data.documents %}
+{% assign docs = site.data.documents | reverse %}
 {% else %}
 {% assign docs = site.data.documentsdemo %}
 {% endif %}
