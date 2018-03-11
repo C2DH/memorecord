@@ -45,7 +45,7 @@ layout: default
       slideContainerSelector: '.social-media-container',
       language: '{{page.lang}}'
     });
-    d3.json('{{ '/assets/data/records.json' | relative_url }}').then(function(data) {
+    d3.json('{{ '/assets/data/records.json?v=' | append: site.github.build_revision | relative_url }}').then(function(data) {
       // clean data here
       m.update(data);
     })
