@@ -2,7 +2,7 @@ _site/
 .sass-cache/
 .jekyll-metadata
 
-_data/documents.yaml
+# _data/documents.yaml
 
 node_modules
 scripts/settings.js
