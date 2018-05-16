@@ -23,5 +23,8 @@ module.exports = {
   },
   contents: {
     path: './__contents'
+  },
+  media:{
+    url: '//media/images/'
   }
 }

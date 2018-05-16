@@ -10,7 +10,7 @@ const fs          = require('fs'),
       settings    = require('./settings.js'),
       moment      = require('moment'),
       credentials = require(settings.google_spreadsheet_to_json.credentials),
-      
+
       gsjson = require('google-spreadsheet-to-json');
 
 
@@ -49,12 +49,12 @@ async.waterfall([
       });
 
       // console.log(results);
-      
+
       results = results.filter(d => d.uid || d.id);
-      
-      
+
+
       console.log(_bl('      - n. valid records:'), results.length);
-      
+
       next(null, results)
     }).catch(next);
   },
@@ -62,7 +62,7 @@ async.waterfall([
   (results, next) => {
     c++;
     console.log(_cy(c, '.'), _bl('merge with alread stored records'))
-    
+
     results
       .map(d => {
         // console.log(d)
@@ -72,6 +72,11 @@ async.waterfall([
           image: d.image || d.picture,
           url: d.url
         };
+
+        // if there is a nice local_url
+        if(d.local_url) {
+          _d.image = path.join(settings.media? settings.media.url: '/media/image/', d.local_url);
+        }
 
         // add geometry if there is a valid lat and lon
         if(d.lat){
@@ -83,7 +88,7 @@ async.waterfall([
             ]
           };
         }
-        
+
         // clean url
         if(d.url && d.url.length) {
           _d.url = d.url.trim();
@@ -92,10 +97,10 @@ async.waterfall([
           _d.url = d.link.trim();
           _d.provider = 'facebook';
         }
-        
+
         // clean date for instagram
         if(d.date) {
-          
+
           _d.date = moment(d.date, 'X').format('YYYY-MM-DD');
 
           // later with javascrip Date object do: d=neww Date() d.toLocaleDateString('fr-FR', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
@@ -114,14 +119,14 @@ async.waterfall([
         if(org){
           // d.data = { ... org.data, ... d.data}
           db.records.update({
-            _id: org._id, 
+            _id: org._id,
           }, d, {
             upsert: true
           })
         } else{
           // last slug win all
           db.records.update({
-            uid: d.uid, 
+            uid: d.uid,
           }, d, {
             upsert: true
           })
@@ -140,5 +145,3 @@ async.waterfall([
 
     //let datafields = results.
   // open then write json
-  
-
