@@ -1,7 +1,7 @@
 ---
 layout: page
-lang: pt
-permalink: /pt/the-project/
+lang: lu
+permalink: /lu/the-project/
 link: /the-project/
 title: O projeto
 ---
