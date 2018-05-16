@@ -6,6 +6,6 @@ link: /stories/
 title: Histoires
 ---
 
-**A colheita #memorecord** 
+**D 'Ernte #memorecord** 
 <!-- more -->
 
