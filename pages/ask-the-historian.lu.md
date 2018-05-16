@@ -1,7 +1,7 @@
 ---
 layout: page
-lang: fr
-permalink: /fr/ask-the-historian/
+lang: lu
+permalink: /lu/ask-the-historian/
 link: /ask-the-historian/
 title: Demander à l'historienne!
 ---
