@@ -3,23 +3,25 @@ layout: page
 lang: lu
 permalink: /lu/take-part/
 link: /take-part/
-title: Participer
+title: Maach mat
 ---
 
-La participation collective est l'âme de cette expérience de *crowdsourcing*. En participant à ce projet collectif, Vos mémoires et vos récit peuvent nous aider à mieux comprendre les aspects historiques de la migration au Grand-Duché.
+Dëst Crowdsourcing  Experiment ass op d’Participatioun vun enger Communautéit ugewisen. Andeems Dir en Deel vun dësem kollektive Projet gitt, kënnen Är Erënnerungen a perséinlech Geschichten eis hëllefen, fir méi iwwert d’historesch Aspekter vu Migratioun gewuer ze ginn.
 
-#memorecord rassemble tous les publication liés à mémoires de la migration au Luxembourg. Rejoignez la récolte! Utilisez #memorecord sur vos publications Facebook et Instagram.
+#memorecord freet sech iwwert all Post deen eng Connectioun zu Erënnerungen vu Migratioun zu Lëtzebuerg huet. Erzielt eis Är Geschicht. Maacht mat! Benotzt #memorecord an Ären Facebook an Instagram Posts.
+
 
 <!-- more -->
 
-# Comment fonctionne #memorecord?
+# Wéi #memorecord funktionéiert
 
-Tous les publication publics sur Facebook et Instagram marqués avec le hashtag du projet (#memorecord) seront seront partagés dans nos réseaux sociaux, rassemblés et affichés dans la galerie de notre site, sous [lire les histoires](https://c2dh.github.io/memorecord/stories/). La collection respecte les paramètres de confidentialité des utilisateurs et leurs messages originaux sur Facebook et Instagram, donc seuls les publication ouverts et publics seront collectés. Si un post est supprimé sur Facebook ou Instagram, il sera également supprimé dans nos réseaux sociaux et notre galerie.
+All ëffentleche Post op Facebook an Instagram, deen mam Hashtag vum Projet (#memorecord) markéiert ass, wäert op eises sozialen Netzwierker an eiser Galerie vun der Websäit ënner [Geschichten](https://memorecord.uni.lu/lu/stories/) gedeelt ginn. Eis Grondsätz fir d’Sammelen vun Äre Geschichten respektéiert d’Privatsphäre-Astellungen vum User an hiren Originalposts op Facebook an Instagram, sou datt nëmmen Posts, déi oppen an ëffentlech sinn, gesammelt ginn. Wann e Post op Facebook oder Instagram geläscht gëtt, wäert en och vun eise sozialen Netzwierker an eiser Websäit-Galerie geläscht ginn.
 
-Si vous souhaitez partager quelque chose en privé, vous pouvez également contacter le conservateur du projet par [e-mail](mailto: anita.lucchesi@uni.lu).
+Wann Dir eppes wëllt privat deelen, kënnt Dir Iech och gären un d’Responsabel vum Projet per [E-Mail](mailto:memorecord@uni.lu). wenden. 
 
-# Pourquoi votre participation est-elle importante?
+# Firwat Är Participatioun zielt
 
-L'une des questions principales à laquelle #memorecord veut répondre est "Quelles sont les histoires cachées au-delà e derrière del'histoire de succès de la migration au Luxembourg?". Plus les gens participent, plus notre collection sera diversifiée, plus notre réponse peut être plurielle et démocratique.
+Eng vun den Haaptfroen, déi #memorecord ze beäntweren versicht ass “Wat steet hannert der erfollegräicher Migratiounsgeschicht zu Lëtzebuerg?” Wat méi Leit matmaachen, wat eis Sammlung méi diversifizéiert gëtt, desto méi breet an demokratesch kann eis Äntwert ginn.
 
-#memorecord accueille les Luxembourgeois et les migrants de toutes nationalités pour partager leurs mémoires de la migration au Grand-Duché. Toutes les langues sont les bienvenues. Ajoutez votre pièce à cette mosaïque de mémoires. Rejoignez la récolte!
+#memorecord heescht Lëtzebuerger a Migranten vun allen Nationalitéiten wëllkomm fir hier Erënnerungen vu Migratioun zu Lëtzebuerg ze deelen. All Sprooche si wëllkomm. Drot Ären Deel dozou bäi fir dësen Erënnerungsmosaïk ze komplettéieren. Erzielt eis Är Geschichte. Maacht mat!
+
