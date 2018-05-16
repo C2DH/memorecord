@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js && npm run flush",
     "clean": "node clean.js",
-    "build": "npm run clean && npm start && npm run thumbnails && npm run flush",
+    "build": "npm run clean && npm start && npm run flush",
     "thumbnails": "node thumbnails.js",
     "flush": "node flush.js",
     "test": "echo \"Error: no test specified\" && exit 1"
