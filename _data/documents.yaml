@@ -1,17 +1,4 @@
 -
-    uid: 'https://www.instagram.com/p/Bbwnl8BHYeN/'
-    description: '#memorecord #tenerife'
-    image: 'https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/23735245_309357076215727_6898639117228179456_n.jpg'
-    url: 'https://www.instagram.com/p/Bbwnl8BHYeN/'
-    geometry:
-        type: Point
-        coordinates:
-            - -16.7312335968
-            - 28.0631191382
-    provider: instagram
-    date: '2017-11-21'
-    _id: 36604bbcf52d4984bff710a7c08e0ef9
--
     uid: 'https://www.instagram.com/p/BA0ArX8BPiv/'
     description: 'Eu adoro cartas. E, em tempo de Facebook, Whatsapp, mesmo o bom e "velho" (?) e-mail, as benditas parecem desaparecidas. Hoje tive a sorte grande de receber duas de uma só vez. Estava me sentindo sozinha, cansada, saudosa, e até um pouco entediada, apesar dos muitos afazeres. Ao chegar em casa me deparo com essas duas preciosidades na minha caixa de correio. Demorei pra ler porque a visão embaçou um cadinho. Mas foi tão bom, fez uma companhia enorme e deu um sentido a tantas coisas que eu não pensava há algum tempo. Carta é documento, né!? A gente registra ali aquelas palavras e sabe lá que asas elas criarão. É gostoso pensar nisso enquanto tenho essas nas minhas mãos. Já escrevi muitas que não mandei, muitas que mandei e não chegaram por incompetência das agências responsáveis, azar ou destino mesmo. Enquanto olho pra elas, releio, sinto o cheiro, estudo a caligrafia e provo a textura do papel me sinto tão comovida. Pelo tempo dedicado, pelo carinho impresso, marcado, borrado, colado com o envelope. Com boa dose de sinergia, ambas me desejam, com palavras diferentes, um 2016 muito porreta de bom. Como o Universo é tão bom e eu sou uma pessoa tão abençoada, tive a boa fortuna de receber esses dois presentes, nascidos de lares de afeto e paz, onde sempre me senti segura e acolhida. De certa forma, veio, em cada envelope, uma família, um grupo de amigos inteiro. A família que escolhemos e que nos escolhe. Os amigos que fazemos e que nos fazem. Fico muito obrigada mesmo de fundo do coração por esse presente. Trouxe tanta cor pra minha noite, pro meu ano. As duas primeiras do ano! 😊💜 #gratidao 🙏🏼 #memorecord'
     image: 'https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12543271_1664524927130754_323745507_n.jpg'
@@ -92,14 +79,6 @@
         url: b4259a03bcf942b8a1a8de7175c4efd6-24x24.jpg
         width: 24
         height: 24
--
-    uid: 1077251395746417_1137023779769178
-    description: "After more than 20 years… two years ago, I was able to return to the place where I was born and lived my childhood.\nOne of the first things I tried was to capture myself stepping in that specific place, to capture myself in that specific moment, the present. \nA photo of my footsteps… my feet walking through all these memories and feelings; walking on the streets where I walked as a child, walking in the park where I used to play, stepping in front of the house where I lived and where, somehow, I was still locked inside, until that moment.\nIt was one of the most incredible experiences I've ever had… to break free of memories by going back to them. \nWalking through your memories is an act of freedom. \n23 February 2016 at 16:49 Lonay, Suisse\n#memorecord"
-    image: 'https://scontent.xx.fbcdn.net/v/t1.0-1/s100x100/18952668_1552550144757660_2041750044214456253_n.jpg?oh=87f9cafd586447298ae1a1b6806fd20e&oe=5B060A3E'
-    url: 'https://www.facebook.com/1841664135846258/posts/1841656422513696'
-    provider: facebook
-    date: '2018-03-04'
-    _id: d07fc94b41be4e1bafead034b4398b9e
 -
     uid: 1077251395746417_1137202803084609
     description: 'Hello, this is the first weekend of #memorecord online. This video talks a little bit about participation. #memorecord is aimed at collecting memories of migration…'
