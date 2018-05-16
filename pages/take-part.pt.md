@@ -12,13 +12,13 @@ A participação da comunidade é a alma desse experimento de *crowdsourcing*. A
 
 <!-- more -->
 
-# Como funciona #memorecord?
+# **Como funciona #memorecord?**
 
 Todos os posts públicos no Facebook e Instagram marcados com a hashtag do projeto (#memorecord) serão compartilhados em nossas redes, reunidos e exibidos em nossa galeria do site, em [ler as histórias](https://memorecord.uni.lu/pt/stories/). A coleção respeita as configurações de privacidade dos usuários e suas postagens originais no Facebook e Instagram, portanto, apenas as postagens abertas e públicas serão coletadas. Se uma postagem for excluída no Facebook ou Instagram, ela também será eliminada de nossas redes sociais e da nossa galeria.
 
 Se você quiser compartilhar algo de forma privada, você também pode entrar em contato com a curadora do projeto por [e-mail](mailto:memorecord@uni.lu).
 
-# Por que sua participação é importante?
+# **Por que sua participação é importante?**
 
 Uma das principais questões #memorecord quer responder é "O que está por trás e além da história bem-sucedida da migração no Luxemburgo?". Quanto mais pessoas participam, maior será a nossa colheita, mais plural e democrática poderá ser a nossa resposta.
 
