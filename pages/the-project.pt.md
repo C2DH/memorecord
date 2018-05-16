@@ -10,10 +10,10 @@ title: O projeto
 
 <!-- more -->
 
-A participação da comunidade é a alma desse experimento de *crowdsourcing*. [**Participe!**](https://memorecord.uni.lu/pt/take-part/) Suas memórias e histórias pessoais podem nos ajudar a entender mais sobre os aspectos históricos da migração no Grão-Ducado.
+A participação da comunidade é a alma desse experimento de *crowdsourcing*. [**Por que não participar?**](https://memorecord.uni.lu/pt/take-part/) Suas memórias e histórias pessoais podem nos ajudar a entender mais sobre os aspectos históricos da migração no Grão-Ducado.
 
 
-## Background acadêmico
+## **Background acadêmico**
 
 Este site faz parte do projeto de pesquisa de doutorado intitulado *Shaping a digital memory platform on migration narratives: A public history project on migration memories in Luxembourg*, conduzido por Anita Lucchesi no [**Center for Contemporary and Digital History**](https://www.c2dh.uni.lu/), na [Universidade do Luxemburgo](https://www.uni.lu/) e financiado pelo [*Luxembourg National Research Fund*](https://www.fnr.Lu).
 
