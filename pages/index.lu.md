@@ -6,5 +6,5 @@ link: /
 title: Join the harvest (lu)
 ---
 
-Kommt d 'Ernte! Benotzt #memorecord op Är Facebook- Instostek Posts.
+Kommt d'Ernte! Benotzt #memorecord op Är Facebook- Instostek Posts.
 <!-- more -->
