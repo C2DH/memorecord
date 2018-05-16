@@ -75,7 +75,7 @@ async.waterfall([
 
         // if there is a nice local_url
         if(d.local_url) {
-          _d.image = path.join(settings.media? settings.media.url: '/media/image/', d.local_url);
+          _d.image = path.join(settings.media? settings.media.url: '/media/images/', d.local_url);
         }
 
         // add geometry if there is a valid lat and lon
