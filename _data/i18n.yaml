@@ -2,75 +2,90 @@ index:
   en: home
   fr: accueil
   pt: começo
-  it: home
+  it: inizio
+  lu: doheem
 the project:
   en: the project
   fr: le projet
   pt: o projeto
   it: il progetto
+  lu: de projet
 take part:
   en: take part
   fr: participer
   pt: participar
   it: partecipa
+  lu: maach mat
 ask the historian:
   en: ask the historian
   fr: demander à l'historienne
   pt: perguntar à historiadora
   it: chiedi alla storica
+  lu: frot de historiker
 collection days:
-  en: collection days
-  fr: journée de récolte
-  pt: dia de coleta
-  it: giornate di raccolta
+  en: memory harvest
+  fr: récolte des memories
+  pt: colheita de memórias
+  it: raccolta di memorie 
+  lu: sammel-deeg
 the stories:
   en: read stories
   fr: lire les histoires
   pt: ler as histórias
   it: leggi le storie
+  lu: liesgeschichten
 map:
   en: world map
   fr: carte du monde
   pt: mapa
   it: mappa
+  lu: kaart
 all stories:
   en: read stories
   fr: lire les histoires
   pt: ler histórias
   it: leggi le storie
+  lu: liesgeschichten
 privacy:
   en: privacy
   fr: confidentialité des données
   pt: privacidade
   it: privacy
+  lu: Privatsphär
 languages:
   en: languages
   fr: langues
   pt: línguas
   it: scelta lingua
+  lu: sprooch
 close menu:
   en: close menu
   fr: fermer
   pt: fechar
   it: chiudi
+  lu: enk
 headlines:
   -
     en: is aimed at collecting memories of migration in Luxembourg
-    fr: collect des mémoires de la migration au Luxembourg
+    fr: vise à collecter des mémoires de la migration au Luxembourg
     pt: visa a recolher memórias da migração no Luxemburgo
     it: raccoglie le storie di migrazioni in Lussemburgo
+    lu: D’Sammele vun Erënnerungen zur Migratioun zu Lëtzebuerg
   -
     en: is a simple hashtag
     fr: est un simple hashtag
     pt: é uma simples hashtag
     it: è facile come una hashtag
+    lu: ass en einfachen Hashtag
   -   
     en: is a digital memory shoebox
     fr: est une boîte à trésor numérique
     pt: é uma caixa de memórias digital
     it: è una scatola digitale delle meraviglie 
+    lu: ass eng digital Schatzkëscht
   -   
     en: is a digital public history project
-    fr: "est un projet d&#39;histoire publique numérique"
+    fr: est un projet d'histoire publique numérique
     pt: é um projeto de história pública digital
     it: è un progetto di digital public history
+    lu: ass en digitale Public History Projet
