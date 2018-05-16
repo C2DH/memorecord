@@ -4,7 +4,7 @@
   "description": "A few scripts to handle _data section",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js && npm run flush",
     "clean": "node clean.js",
     "build": "npm run clean && npm start && npm run thumbnails && npm run flush",
     "thumbnails": "node thumbnails.js",
