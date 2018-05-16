@@ -3,7 +3,7 @@ layout: page
 lang: en
 permalink: /collection-days/
 link: /collection-days/
-title: Collection Days
+title: Memory harvest
 ---
 If you feel like sharing your memories face-to-face or if you have pictures, old documents, and objects that you would like to add to your story, join one of the Exchange & Collection Days with #memorecord. 
 
