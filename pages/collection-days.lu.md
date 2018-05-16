@@ -1,13 +1,14 @@
 ---
 layout: page
-lang: fr
-permalink: /fr/collection-days/
+lang: lu
+permalink: /lu/collection-days/
 link: /collection-days/
-title: Journée de récolte
+title: Sammel-Deeg
 ---
-Si vous avez envie de partager votre face-à-face ou si vous avez des photos, des documents anciens, des objets que vous aimeriez ajouter à votre histoire, rejoignez l'un des Exchange & Collection Days avec #memorecord.
+Wann Dir Är Erënnerungen perséinlech deele wëllt oder wann Dir Fotoen, Dokumenter oder Objet’en hutt, déi Är Geschicht komplettéieren, kënnt Dir op ee vun eisen Austausch a Sammel-Deeg kommen.
 
-Les événements seront annoncés sur cette page, ainsi que sur les médias sociaux du projet.
+D’Evenementer wäerten iwwert dës Säit an iwwert dem Projet seng sozial Medien ugekënnegt ginn.
+
 
 
 <!-- more -->
