@@ -1,7 +1,7 @@
 ---
 layout: map
-lang: fr
-permalink: /fr/map/
+lang: lu
+permalink: /lu/map/
 link: /map/
 title: Map
 ---

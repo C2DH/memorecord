@@ -1,7 +1,7 @@
 ---
 layout: page
-lang: fr
-permalink: /fr/privacy/
+lang: lu
+permalink: /lu/privacy/
 link: /privacy/
 title: Confidentialité des données
 ---

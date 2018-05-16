@@ -1,7 +1,7 @@
 ---
 layout: page
-lang: fr
-permalink: /fr/take-part/
+lang: lu
+permalink: /lu/take-part/
 link: /take-part/
 title: Participer
 ---

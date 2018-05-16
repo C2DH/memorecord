@@ -1,10 +1,10 @@
 ---
 layout: index
-lang: pt
+lang: lu
 permalink: /lu/
 link: /
-title: Join the harvest (pt)
+title: Join the harvest (lu)
 ---
 
-Junte-se à colheita! Use #memorecord em seus posts do Facebook e do Instagram.
+Kommt d 'Ernte! Benotzt #memorecord op Är Facebook- Instostek Posts.
 <!-- more -->
