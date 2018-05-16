@@ -2,7 +2,7 @@
 layout: page
 lang: lu
 permalink: /lu/frot-de-historiker/
-link: /ask-the-historian/
+link: /frot-de-historiker/
 title: Frot de Historiker!
 ---
 
