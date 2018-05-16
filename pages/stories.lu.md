@@ -6,6 +6,6 @@ link: /stories/
 title: Histoires
 ---
 
-**D 'Ernte #memorecord** 
+**D'Ernte #memorecord** 
 <!-- more -->
 
