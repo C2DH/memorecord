@@ -24,5 +24,5 @@ Si vous souhaitez partager quelque chose en privé, vous pouvez également conta
 
 Une des questions principales à laquelle #memorecord veut répondre est « Quelles sont les histoires cachées derrière et au-delà de l'histoire de succès de la migration au Luxembourg? ». Plus les gens participent, plus notre collection sera diversifiée et plus notre réponse pourra être de grande envergure et démocratique.
 
-#memorecord accueille les Luxembourgeois et les migrants de toutes nationalités pour partager leurs mémoires de la migration au Luxembourg. Toutes les langues sont les bienvenues. Ajoutez votre pièce à cette mosaïque de mémoires. Racontez-nous votre histoire !
+#memorecord accueille les Luxembourgeois et les migrants de toutes nationalités pour partager leurs mémoires de la migration au Luxembourg. Toutes les langues sont les bienvenues. Ajoutez votre pièce à cette mosaïque de mémoires. RRejoignez la récolte !
 
