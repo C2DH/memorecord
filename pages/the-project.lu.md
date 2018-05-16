@@ -3,7 +3,7 @@ layout: page
 lang: lu
 permalink: /lu/the-project/
 link: /the-project/
-title: O projeto
+title: De Projet
 ---
 
 **Memorecord** ass en digitalen Public History Projet. E kombinéiert **gemeinschaftlech Participatioun an akademesch Fuerschung** mam Zil, eng nei Perspektiv op d’Geschicht vun der Migratioun zu Lëtzebuerg ze bidden. De Projet benotzt nei Kommunikatiounstechnologien fir der Geschicht eng nei kooperativ Approche ze ginn.
