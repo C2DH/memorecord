@@ -13,13 +13,13 @@ Dëst Crowdsourcing  Experiment ass op d’Participatioun vun enger Communauté
 
 <!-- more -->
 
-# Wéi #memorecord funktionéiert
+# **Wéi #memorecord funktionéiert**
 
 All ëffentleche Post op Facebook an Instagram, deen mam Hashtag vum Projet (#memorecord) markéiert ass, wäert op eises sozialen Netzwierker an eiser Galerie vun der Websäit ënner [Geschichten](https://memorecord.uni.lu/lu/stories/) gedeelt ginn. Eis Grondsätz fir d’Sammelen vun Äre Geschichten respektéiert d’Privatsphäre-Astellungen vum User an hiren Originalposts op Facebook an Instagram, sou datt nëmmen Posts, déi oppen an ëffentlech sinn, gesammelt ginn. Wann e Post op Facebook oder Instagram geläscht gëtt, wäert en och vun eise sozialen Netzwierker an eiser Websäit-Galerie geläscht ginn.
 
 Wann Dir eppes wëllt privat deelen, kënnt Dir Iech och gären un d’Responsabel vum Projet per [E-Mail](mailto:memorecord@uni.lu). wenden. 
 
-# Firwat Är Participatioun zielt
+# **Firwat Är Participatioun zielt**
 
 Eng vun den Haaptfroen, déi #memorecord ze beäntweren versicht ass “Wat steet hannert der erfollegräicher Migratiounsgeschicht zu Lëtzebuerg?” Wat méi Leit matmaachen, wat eis Sammlung méi diversifizéiert gëtt, desto méi breet an demokratesch kann eis Äntwert ginn.
 
