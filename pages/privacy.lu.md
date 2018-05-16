@@ -3,13 +3,12 @@ layout: page
 lang: lu
 permalink: /lu/privacy/
 link: /privacy/
-title: Confidentialité des données
+title: Privatsphär
 ---
 
-Memorecord respecte les paramètres de confidentialité des utilisateurs et leurs publication originaux sur Facebook et Instagram. Seuls les publication ouverts et publics seront collectés et affichés sur ce site. Memorecord n'aura accès à aucun type de publication privé.
+Memorecord respektéiert d’Privatsphär Astellungen vun de Benotzer an hiren original Posts op Facebook an Instagram. Nëmmen Posts, déi oppen an ëffentlech sinn, gi gesammelt an op dëser Websäit gewisen. 
+Andeems se den Hashtag #memorecord an hiren ëffentleche Posts benotzen, trieden d’Benotzer dem #memorecord Projet bäi. E Link an eng Virschau vum Post ginn an der #memorecord Galerie ënner [Geschichten](https://memorecord.uni.lu/lu/stories/), ugewisen an den original Post kann direkt op Facebook oder Instagram opgeruff ginn. Wann e Post zu engem Zäitpunkt vum User op sengem Account geläscht gëtt, ass en och net méi an der #memorecord Galerie siichtbar.
 
-En ajoutant le hashtag du projet (#memorecord) à leurs publication publics, les utilisateurs rejoignent la récolte #memorecord. Un lien et un aperçu de la publication sont affichés sur la galerie #memorecord sous [lire les histoires](https://c2dh.github.io/memorecord/stories/), le post original peut être consulté directement sur Facebook ou Instagram. Si, à tout moment, un post est supprimé par les utilisateurs dans leurs comptes de médias sociaux, il sera également supprimé dans la galerie #memorecords.
-
-En cas de doute, veuillez contacter [Anita Lucchesi](mailto: anita.lucchesi@uni.lu), le commissaire du projet.
+Wann Dir Froen hutt, zéckt net d’Responsabel vum Projet, [Anita Lucchesi](mailto:anita.lucchesi@uni.lu), ze kontaktéieren. 
 
 <!-- more -->
