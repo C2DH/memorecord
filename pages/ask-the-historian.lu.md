@@ -1,8 +1,8 @@
 ---
 layout: page
 lang: lu
-permalink: /lu/frot-de-historiker/
-link: /frot-de-historiker/
+permalink: /lu/ask-the-historian/
+link: /ask-the-historian/
 title: Frot de Historiker!
 ---
 
