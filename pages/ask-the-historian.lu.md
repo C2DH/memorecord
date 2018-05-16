@@ -6,7 +6,7 @@ link: /ask-the-historian/
 title: Frot de Historiker!
 ---
 
-Wann Dir méi Erklärung iwwert #memorecord braucht, frot de Projet Kommissär:[**Anita Lucchesi**](mailto:memorecord@uni.lu).
+Wann Dir méi Erklärung iwwert #memorecord braucht, frot de Projet Kommissär: [**Anita Lucchesi**](mailto:memorecord@uni.lu).
 
 <!-- more -->
 
