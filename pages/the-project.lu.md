@@ -15,7 +15,7 @@ title: O projeto
 Dës crowdsourcing experiment setzt op d'Participatioun vun der Gemeinschaft. [*Firwat net matmaachen?*](https://memorecord.uni.lu/lu/take-part/) Är Erënnerungen a perséinleche Konten kënne mir hëllefen, méi iwwer d'historesch Aspekter vun der Migratioun zu Lëtzebuerg ze verstoen.
 
 
-## Akademesch Background
+## **Akademesch Background**
 
 Dësen Internetsite ass Deel vun engem PhD Fuerschungsprojet mam Titel “Shaping a digital memory platform on migration narratives: A public history project on migration memories in Luxembourg”, dee vum Anita Lucchesi am  [**Center for Contemporary and Digital History**](https://www.c2dh.uni.lu/), op der [Uni Lëtzebuerg](https://www.uni.lu/) duerchgefouert a vum [*Luxembourg National Research Fund*](https://www.fnr.Lu)finanzéiert gëtt.
 
