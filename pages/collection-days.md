@@ -11,9 +11,9 @@ The events will be announced on this page, as well as on the project’s social 
 
 <!-- more -->
 
-## **Next events:**..
+## **Next events:**
 
-#Memorecord - une recolte des mémoires. Quelle est la valeur d'une histoire? 20 May 2018
+#[**Memorecord - une recolte des mémoires. Quelle est la valeur d'une histoire?**](https://www.c2dh.uni.lu/events/memorecord-une-recolte-des-memoires-quelle-est-la-valeur-dune-histoire) 20 May 2018
 *Workshop animé par Anita Lucchesi*
 
 <source src='{{ "/assets/images/memoria_episodika.jpg" }}'>
