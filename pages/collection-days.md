@@ -13,7 +13,7 @@ The events will be announced on this page, as well as on the project’s social 
 
 ## **Next events:**
 
-#[**Memorecord - une récolte des mémoires. Quelle est la valeur d'une histoire?**](https://www.c2dh.uni.lu/events/memorecord-une-recolte-des-memoires-quelle-est-la-valeur-dune-histoire) 20 May 2018 | 15h - 17h, *Workshop animé par Anita Lucchesi* @ Expo Memória Episódika, Espace H²O, Differdange,  [Join the harvest!](https://www.facebook.com/events/591438841226889/)
+#[Memorecord - une récolte des mémoires. Quelle est la valeur d'une histoire?](https://www.c2dh.uni.lu/events/memorecord-une-recolte-des-memoires-quelle-est-la-valeur-dune-histoire) 20 May 2018, 15h - 17h | *Workshop animé par Anita Lucchesi* @ Expo Memória Episódika, Espace H²O, Differdange, [Join the harvest!](https://www.facebook.com/events/591438841226889/)
 
 
 
