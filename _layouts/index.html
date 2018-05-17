@@ -4,7 +4,7 @@ layout: default
 
 
 <div class='fullsized'>
-  
+
   <div class='left'>
     <video autoplay loop class="video-background" muted plays-inline style='right: -10px;left:auto'>
       <source src='{{"assets/videos/043445305-goods-being-loaded-buenos-aire.mp4" | relative_url}}' type="video/mp4">
@@ -20,10 +20,9 @@ layout: default
           <h1 class='headline'>
             <span >
               <b>Memorecord</b>
-              
-              <span href="" class="typewrite" data-period="2000" data-type='[ {% for headline in site.data.i18n.headlines  %}
-                "{{ headline[page.lang] }}"{%unless forloop.last %},{% endunless%}
-              {% endfor %} ]'><span class="wrap"></span></span>
+
+              <span href="" class="typewrite" data-period="2000" data-type='[{% for headline in site.data.i18n.headlines  %}
+                "{{ headline[page.lang] | replace: "'", "&#39;"}}"{%unless forloop.last %},{% endunless%}{% endfor %} ]'><span class="wrap"></span></span>
             </span></h1>
 
           <div class="excerpt"><span style='background-color: white'>{{paragraphs[0]}}</span></div>
@@ -33,30 +32,27 @@ layout: default
   </div>
   <div class='right'>
     <iframe src="https://player.vimeo.com/video/258228903" style='background: #050505' width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    
-    
+
+
     <!-- <video autoplay loop class="video-background" muted plays-inline>
       <source src="https://player.vimeo.com/external/158148793.hd.mp4?s=8e8741dbee251d5c35a759718d4b0976fbf38b6f&profile_id=119&oauth2_token_id=57447761" type="video/mp4">
- 
+
     <source src='{{"assets/videos/043445305-goods-being-loaded-buenos-aire.mp4" | relative_url}}' type="video/mp4">
       </video> -->
   </div>
 </div>
 
-<div style='border-top: 2px solid magenta;
-    background: #eaeaea;
-    padding-top: 30px; padding-bottom: 30px;
-    margin-bottom: 2px;'>
+<div style='border-top: 2px solid magenta; background: #eaeaea; padding-top: 30px; padding-bottom: 30px; margin-bottom: 2px;'>
   <div class='container'>
     <div class="row social-media-container">
-      
+
 
     </div>
     <div class='row'>
       <div class='col text-center'>
-        <a class='big' {% if page.lang == site.default_lang %} 
-                    href='{{'/stories' | absolute_url}}' 
-                  {% else %} 
+        <a class='big' {% if page.lang == site.default_lang %}
+                    href='{{'/stories' | absolute_url}}'
+                  {% else %}
                     href='{{page.lang | absolute_url}}/stories'
                   {% endif %}>
           {% assign key="all stories"%}{% include t.html %}
@@ -70,7 +66,7 @@ layout: default
 
 <div id='modal-slides' class="modal fade show" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
-    
+
     <div class="modal-content">
       <div class='close'>✕</div>
       <div class="header">
@@ -160,7 +156,7 @@ layout: default
       // d3.selectAll('.social-media').on('click', function(){
       //   m.show();
       // })
-      
+
     })
-  
+
 </script>
