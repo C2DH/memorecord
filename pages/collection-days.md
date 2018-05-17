@@ -13,7 +13,7 @@ The events will be announced on this page, as well as on the project’s social 
 
 #Memorecord - une recolte des mémoires. Quelle est la valeur d'une histoire? 20 May 2018
 
-<img src=assets/images/memoria_episodika.jpg>
+<img src='assets/images/memoria_episodika.jpg'>
 
 Workshop animé par Anita Lucchesi
 
