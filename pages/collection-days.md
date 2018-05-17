@@ -18,6 +18,7 @@ Workshop animé par Anita Lucchesi
 
 Le workshop est organisé dans le cadre de l'exposition d'Edmond Oliveira intitulée "Memória Episódika" qui montre l’Histoire à travers une installation de sons et d’images des années 70 et 80. Ce sont des images dialectiques, dans lesquelles la mémoire noue le passé et le présent. C’est le souvenir comme lieux de mémoire selon Walter Benjamin.
 
+<img src='assets/images/memoria_episodika.jpg'>
 
 **Informations pratiques**
 
