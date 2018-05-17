@@ -3,10 +3,10 @@ layout: page
 lang: lu
 permalink: /lu/ask-the-historian/
 link: /ask-the-historian/
-title: Frot de Historiker!
+title: Frot den Historiker!
 ---
 
-Wann Dir méi Erklärung iwwert #memorecord braucht, frot de Projet Kommissär: [**Anita Lucchesi**](mailto:memorecord@uni.lu).
+Wann Dir méi Erklärung iwwert #memorecord braucht, frot de Responsabel vum Projet: [**Anita Lucchesi**](mailto:memorecord@uni.lu).
 
 <!-- more -->
 

@@ -3,9 +3,9 @@ layout: stories
 lang: lu
 permalink: /lu/stories/
 link: /stories/
-title: Histoires
+title: Geschichten
 ---
 
-**D'Ernte #memorecord** 
+**D'Rekolt #memorecord** 
 <!-- more -->
 

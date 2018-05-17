@@ -6,5 +6,5 @@ link: /
 title: Join the harvest (lu)
 ---
 
-Kommt d'Ernte! Benotzt #memorecord op Är Facebook an Instagram Posts.
+Maach bei der Rekolt mat! Benotzt #memorecord an Äre Facebook an Instagram Posts.
 <!-- more -->
