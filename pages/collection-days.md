@@ -9,7 +9,8 @@ If you feel like sharing your memories face-to-face or if you have pictures, old
 
 The events will be announced on this page, as well as on the project’s social media. 
 
-## **Next events**
+
+## **Next events:**
 
 #Memorecord - une recolte des mémoires. Quelle est la valeur d'une histoire? 20 May 2018
 *Workshop animé par Anita Lucchesi*
