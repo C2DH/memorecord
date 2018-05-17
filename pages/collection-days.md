@@ -11,12 +11,12 @@ The events will be announced on this page, as well as on the project’s social 
 
 <!-- more -->
 
-## **Next events:**
+## **Next events:**..
 
 #Memorecord - une recolte des mémoires. Quelle est la valeur d'une histoire? 20 May 2018
 *Workshop animé par Anita Lucchesi*
 
-<img src='{{ "/assets/images/memoria_episodika.jpg" }}' type="image">
+<<source src='{{ "/assets/images/memoria_episodika.jpg" }}' type="image">
 
 Le workshop est organisé dans le cadre de l'exposition d'Edmond Oliveira intitulée "Memória Episódika" qui montre l’Histoire à travers une installation de sons et d’images des années 70 et 80. Ce sont des images dialectiques, dans lesquelles la mémoire noue le passé et le présent. C’est le souvenir comme lieux de mémoire selon Walter Benjamin.
 
