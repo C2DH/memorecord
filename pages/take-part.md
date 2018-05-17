@@ -22,5 +22,5 @@ If you want to share something privately, you are also welcome to contact the pr
 
 One of the main questions #memorecord wants to answer is “What is behind and beyond the successful story of migration in Luxembourg?”. The more people participate, the more diverse our collection and the more wide-ranging and democratic our answer can be.
 
-#memorecord welcomes Luxembourgers and migrants of all nationalities to share their memories of migration in Luxembourg. All languages are welcome. Add your piece to this mosaic of memories. Tell us your story. Joint the harvest!
+#memorecord welcomes Luxembourgers and migrants of all nationalities to share their memories of migration in Luxembourg. All languages are welcome. Add your piece to this mosaic of memories. Tell us your story. Join the harvest!
 
