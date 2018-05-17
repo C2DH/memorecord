@@ -3,7 +3,7 @@ layout: page
 lang: lu
 permalink: /lu/privacy/
 link: /privacy/
-title: Privatsphär
+title: privatsphär
 ---
 
 Memorecord respektéiert d’Privatsphär Astellungen vun de Benotzer an hiren original Posts op Facebook an Instagram. Nëmmen Posts, déi oppen an ëffentlech sinn, gi gesammelt an op dëser Websäit gewisen. 
