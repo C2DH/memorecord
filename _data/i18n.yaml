@@ -26,7 +26,7 @@ collection days:
   en: memory harvest
   fr: récolte des memories
   pt: colheita de memórias
-  it: raccolta di memorie 
+  it: raccolta di memorie
   lu: sammel-deeg
 the stories:
   en: read stories
@@ -67,25 +67,25 @@ close menu:
 headlines:
   -
     en: is aimed at collecting memories of migration in Luxembourg
-    fr: vise à collecter des mémoires de la migration au Luxembourg  
+    fr: vise à collecter des mémoires de la migration au Luxembourg
     pt: visa a recolher memórias da migração no Luxemburgo
     it: raccoglie le storie di migrazioni in Lussemburgo
     lu: D’Sammele vun Erënnerungen zur Migratioun zu Lëtzebuerg
   -
     en: is a simple hashtag
-    fr: est un simple hashtag  
+    fr: est un simple hashtag
     pt: é uma simples hashtag
     it: è facile come una hashtag
     lu: ass en einfachen Hashtag
-  -   
+  -
     en: is a digital memory shoebox
-    fr: est une boîte à trésor numérique  
+    fr: est une boîte à trésor numérique
     pt: é uma caixa de memórias digital
-    it: è una scatola digitale delle meraviglie 
+    it: è una scatola digitale delle meraviglie
     lu: ass eng digital Schatzkëscht
-  -   
+  -
     en: is a digital public history project
-    fr: est un projet d'histoire publique numérique 
+    fr: est un projet d'histoire publique numérique
     pt: é um projeto de história pública digital
     it: è un progetto di digital public history
     lu: ass en digitale Public History Projet
