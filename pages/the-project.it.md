@@ -10,7 +10,7 @@ title: Il progetto
 
 <!-- more -->
 
-La partecipazione della comunità è l'anima di questo esperimento di crowdsourcing. [**Partecipa!**](https://memorecord.uni.lu/it/take-part/) I tuoi ricordi e i tuoi account personali possono aiutarci a capire di più sugli aspetti storici della migrazione nel Granducato.
+La partecipazione della comunità è l'anima di questo esperimento di crowdsourcing. [**Partecipa!**](https://memorecord.uni.lu/it/take-part/) I tuoi ricordi e i tuoi account personali possono aiutarci a capire di più sugli aspetti storici del fenomeno migratorio nel Granducato.
 
 
 ## **Background accademico**

@@ -6,5 +6,5 @@ link: /
 title: Raccontaci una storia (it)
 ---
 
-Raccontaci una storia! Tagga i tuoi post Facebook e Instagram con #memorecord.
+Raccontaci la tua storia! Tagga i tuoi post Facebook e Instagram con #memorecord.
 <!-- more -->

@@ -6,9 +6,9 @@ link: /take-part/
 title: Partecipa!
 ---
 
-La partecipazione della comunità è l'anima di questo esperimento di crowdsourcing. Partecipando a questo progetto collettivo, i tuoi ricordi e i tuoi account personali possono aiutarci a capire di più sugli aspetti storici della migrazione nel Granducato.
+La partecipazione della comunità è l'anima di questo esperimento di crowdsourcing. Partecipando a questo progetto collettivo, i tuoi ricordi e i tuoi account personali possono aiutarci a capire di più sugli aspetti storici del fenomeno migratorio nel Granducato.
 
-#memorecord sta raccogliendo tutti i post relativi ai ricordi della migrazione in Lussemburgo. Unisciti alla raccolta! Usa #memorecord sui tuoi post su Facebook e Instagram.
+#memorecord sta raccogliendo tutti i post relativi ai ricordi della migrazione in Lussemburgo. Raccontaci la tua storia! Unisciti alla raccolta! Usa #memorecord sui tuoi post su Facebook e Instagram.
 
 <!-- more -->
 
