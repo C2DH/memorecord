@@ -11,3 +11,6 @@ Gli eventi saranno annunciati su questa pagina, ed anche sui social media del pr
 
 
 <!-- more -->
+## **Prossimi eventi:**
+
+#[Memorecord - une récolte des mémoires. Quelle est la valeur d'une histoire?](https://www.c2dh.uni.lu/events/memorecord-une-recolte-des-memoires-quelle-est-la-valeur-dune-histoire) 20 Maggio 2018, 15:00 - 17:00 | *Workshop animato da Anita Lucchesi* @ Expo Memória Episódika, Espace H²O, Differdange, [Unisciti alla raccolta!](https://www.facebook.com/events/591438841226889/)

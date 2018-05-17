@@ -12,3 +12,7 @@ D’Evenementer wäerten iwwert dës Säit an iwwert dem Projet seng sozial Med
 
 
 <!-- more -->
+
+## **Nächst Evenementer:**
+
+#[Memorecord - une récolte des mémoires. Quelle est la valeur d'une histoire?](https://www.c2dh.uni.lu/events/memorecord-une-recolte-des-memoires-quelle-est-la-valeur-dune-histoire) 20 Mee 2018, 15:00 - 17:00 | *Workshop geéiert mat Anita Lucchesi* @ Expo Memória Episódika, Espace H²O, Déifferdeng, [Maacht bei der Rekolt mat!](https://www.facebook.com/events/591438841226889/)
