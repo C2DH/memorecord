@@ -23,6 +23,6 @@ Wann dir eppes wëllt privat deelen, kënnt Dir Iech och gären un d’Responsa
 
 Eng vun den Haaptfroen, déi #memorecord versicht ze beäntweren ass: “Wat steet hannert der erfollegräicher Migratiounsgeschicht zu Lëtzebuerg?”. Wat méi Leit matmaachen, wat eis Sammlung méi diversifizéiert gëtt, desto méi breet an demokratesch kann eis Äntwert ginn.
 
-#memorecord heescht Lëtzebuerger a Migrante vun allen Nationalitéite wëllkomm fir hier Erënnerungen vu Migratioun zu Lëtzebuerg ze deelen. All Sprooche si wëllkomm. Drot ären Deel dozou bäi fir dësen Erënnerungsmosaik ze komplettéieren. Erzielt eis är Geschichten. Maacht mat!
+#memorecord heescht Lëtzebuerger a Migrante vun allen Nationalitéite si wëllkomm fir hier Erënnerungen vu Migratioun zu Lëtzebuerg ze deelen. All Sprooche si wëllkomm. Drot ären Deel dozou bäi fir dësen Erënnerungsmosaik ze komplettéieren. Erzielt eis är Geschichten. Maacht mat!
 
 
