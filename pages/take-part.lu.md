@@ -3,7 +3,7 @@ layout: page
 lang: lu
 permalink: /lu/take-part/
 link: /take-part/
-title: Maact mat
+title: Maacht mat
 ---
 
 Dëst Crowdsourcing  Experiment ass op d’Participatioun vun enger Communautéit ugewisen. Andeems dir en Deel vun dësem kollektive Projet gitt, kënnen är Erënnerungen a perséinlech Geschichten eis hëllefen, fir méi iwwert d’historesch Aspekter vu Migratioun gewuer ze ginn.
