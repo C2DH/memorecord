@@ -3,7 +3,7 @@ layout: stories
 lang: pt
 permalink: /pt/stories/
 link: /stories/
-title: Histoires
+title: Histórias
 ---
 
 **A colheita #memorecord** 
