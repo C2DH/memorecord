@@ -12,10 +12,15 @@ La partecipazione della comunità è l'anima di questo esperimento di crowdsourc
 Tutti quelli che sono interessati al progetto, possono anche partecipare semplicemente inviando una lettera al curatore:
 
 Anita Lucchesi
+
 Luxembourg Centre for Contemporary and Digital History (C²DH)
+
 Université du Luxembourg
+
 Maison des Sciences Humaines
+
 11, Porte des Sciences
+
 L - 4366 Esch-Belval
 
 <!-- more -->
