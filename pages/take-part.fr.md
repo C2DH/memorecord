@@ -10,6 +10,13 @@ Cette expérience de *crowdsourcing* repose sur la participation communautaire. 
 
 
 #memorecord veut rassembler toutes les publications liées à vos mémoires de la migration au Luxembourg. Rejoignez la récolte ! Utilisez #memorecord sur vos publications Facebook et Instagram.
+Toute personne intéressée peut également participer simplement en envoyant une lettre au commissaire du projet:
+Anita Lucchesi
+Luxembourg Centre for Contemporary and Digital History (C²DH)
+Université du Luxembourg
+Maison des Sciences Humaines
+11, Porte des Sciences
+L - 4366 Esch-Belval
 
 
 <!-- more -->
