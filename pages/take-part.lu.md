@@ -10,11 +10,17 @@ Dëst Crowdsourcing  Experiment ass op d’Participatioun vun enger Communauté
 
 #memorecord freet sech iwwert all Post deen e Lien zu Erënnerunge vu Migratioun zu Lëtzebuerg huet. Erzielt eis är Geschicht. Maacht mat! Benotzt #memorecord an äre Facebook an Instagram Posts.
 Jiddereen, deen interesséiert ass, kann och matmaachen andeems een e Bréif un d’Responsabel vum Projet schéckt:
+
 Anita Lucchesi
+
 Luxembourg Centre for Contemporary and Digital History (C²DH)
+
 Université du Luxembourg
+
 Maison des Sciences Humaines
+
 11, Porte des Sciences
+
 L - 4366 Esch-Belval
 <!-- more -->
 
