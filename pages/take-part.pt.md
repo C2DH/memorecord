@@ -8,7 +8,19 @@ title: Participar!
 
 A participação da comunidade é a alma desse experimento de *crowdsourcing*. Ao participar deste projeto coletivo, suas memórias e histórias pessoais podem nos ajudar a entender mais sobre os aspectos históricos da migração no Grão-Ducado.
 
-#memorecord está coletando todos os posts relacionados a memórias de migração no Luxemburgo. Junte-se à colheita! Use #memorecord em seus posts do Facebook e do Instagram.
+#memorecord está coletando todos os posts relacionados a memórias de migração no Luxemburgo. Junte-se à colheita! Use #memorecord em seus posts do Facebook e do Instagram.Quem desejar pode também participar simplesmente enviando uma carta para a curadora do projeto:
+
+Anita Lucchesi
+
+Luxembourg Centre for Contemporary and Digital History (C²DH)
+
+Université du Luxembourg
+
+Maison des Sciences Humaines
+
+11, Porte des Sciences
+
+L - 4366 Esch-Belval
 
 <!-- more -->
 
