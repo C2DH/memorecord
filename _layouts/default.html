@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang='{{ page.lang }}'>
-<head>
+<head profile="http://www.w3.org/2005/10/profile">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicons/favicon-32x32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicons/favicon-16x16.png' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicons/apple-icon-180x180.png' | relative_url }}">
+
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -10,18 +14,18 @@
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css?v=' | relative_url }}" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-      
+
      <script src='{{ '/assets/js/d3.min.js' | relative_url }}'></script>
 </head>
 <body class='{{page.layout}}'>
   {% include nav.html %}
 
-  
+
   {{content}}
 
 
   {% include footer.html %}
-  
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
   <script>
