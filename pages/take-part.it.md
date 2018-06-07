@@ -9,19 +9,18 @@ title: Partecipa!
 La partecipazione della comunità è l'anima di questo esperimento di crowdsourcing. Partecipando a questo progetto collettivo, i tuoi ricordi e i tuoi account personali possono aiutarci a capire di più sugli aspetti storici del fenomeno migratorio nel Granducato.
 
 #memorecord sta raccogliendo tutti i post relativi ai ricordi della migrazione in Lussemburgo. Raccontaci la tua storia! Unisciti alla raccolta! Usa #memorecord sui tuoi post su Facebook e Instagram.
+
 Tutti quelli che sono interessati al progetto, possono anche partecipare semplicemente inviando una lettera al curatore:
 
-Anita Lucchesi
-
-Luxembourg Centre for Contemporary and Digital History (C²DH)
-
-Université du Luxembourg
-
-Maison des Sciences Humaines
-
-11, Porte des Sciences
-
-L - 4366 Esch-Belval
+<div class="smaller">
+&#9993; 
+Anita Lucchesi<br>
+Luxembourg Centre for Contemporary and Digital History (C²DH)<br>
+Université du Luxembourg<br>
+Maison des Sciences Humaines<br>
+11, Porte des Sciences<br>
+L - 4366 Esch-Belval<br>
+</div>
 
 <!-- more -->
 

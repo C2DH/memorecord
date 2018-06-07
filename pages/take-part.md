@@ -8,7 +8,9 @@ title: Take part!
 
 This crowdsourcing experiment relies on community participation. By taking part in this collective project, your memories and personal accounts can help us to understand more about the historical aspects of migration in Luxembourg.
 
-#memorecord is keen to collect any posts related to your memories of migration in Luxembourg. Tell us your story. Join the harvest! Use #memorecord on your Facebook and Instagram posts.Anyone interested can also to participate simply by sending a letter to the project curator:
+#memorecord is keen to collect any posts related to your memories of migration in Luxembourg. Tell us your story. Join the harvest! Use #memorecord on your Facebook and Instagram posts.
+
+Anyone interested can also to participate simply by sending a letter to the project curator:
 
 <div class="smaller">
 &#9993; 
