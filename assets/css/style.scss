@@ -40,7 +40,7 @@ body{
 }
 
 @media (min-width: 768px) {
-  .excerpt{ 
+  .excerpt{
     font-size: 2em;
     margin-top: 2em;
     margin-bottom: 1em;
@@ -50,7 +50,7 @@ body{
 
 .contents {
   font-size: 1.6em;
-    
+
   h1, h2, h3 {
     font-size:inherit;
     padding-left: 0.75em;
@@ -62,6 +62,45 @@ body{
     font-size:inherit;
     text-align: justify;
   }
+}
+
+.mail.icon {
+  color: #000;
+  position: absolute;
+  margin-left: 2px;
+  margin-top: 4px;
+  width: 15px;
+  height: 10px;
+  border-radius: 1px;
+  border: solid 1px currentColor;
+}
+
+.mail.icon:before {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: -4px;
+  width: 1px;
+  height: 10px;
+  background-color: currentColor;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  -webkit-transform: rotate(-54deg);
+          transform: rotate(-54deg);
+}
+
+.mail.icon:after {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: -4px;
+  width: 1px;
+  height: 10px;
+  background-color: currentColor;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  -webkit-transform: rotate(54deg);
+          transform: rotate(54deg);
 }
 
 
