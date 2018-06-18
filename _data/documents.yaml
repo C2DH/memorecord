@@ -193,3 +193,14 @@
         url: c60e6a13c85942bc95490587e9591aa4-24x24.jpg
         width: 24
         height: 24
+-
+    uid: 1077251395746417_1200522600085962
+    description: '32 years ago, my first latin concert in London Celia Cruz and Tito Puente, my love for Cuba and the discovery of the other part of me.  #memorecord'
+    image: 'https://memorecord.uni.lu/media/images/1077251395746417_1200522600085962.png'
+    url: 'https://m.youtube.com/watch?v=Zm2C5hx4sI0'
+    provider: facebook
+    _id: 4163331386764c62a5c14c2ab48aff90
+    thumbnail:
+        url: 4163331386764c62a5c14c2ab48aff90-24x24.jpg
+        width: 24
+        height: 24
