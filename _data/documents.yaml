@@ -226,3 +226,13 @@
         url: 3394ab8e78da4a4da428f963a8cc2a44-24x24.jpg
         width: 24
         height: 24
+-
+    uid: 1077251395746417_1202513613220194
+    image: 'https://memorecord.uni.lu/media/images/1077251395746417_1202513613220194.png'
+    url: 'https://www.facebook.com/memorecordlux/photos/a.1077256445745912.1073741827.1077251395746417/1202513613220194/?type=3'
+    provider: facebook
+    _id: 8eb1ffe900f349c796347a20d072cebe
+    thumbnail:
+        url: 8eb1ffe900f349c796347a20d072cebe-24x24.jpg
+        width: 24
+        height: 24
