@@ -6,7 +6,7 @@ link: /take-part/
 title: Participer
 ---
 
-Cette expérience de *crowdsourcing* repose sur la participation communautaire. En prenant part à ce projet collectif, vos mémoires et vos récits peuvent nous aider à mieux comprendre les aspects historiques de la migration au Luxembourg.
+Cette formule repose sur la participation communautaire. En prenant part à ce projet collectif, vos mémoires, vos expériences et vos récits peuvent nous aider à mieux comprendre les aspects historiques de la migration au Luxembourg.
 
 
 #memorecord veut rassembler toutes les publications liées à vos mémoires de la migration au Luxembourg. Rejoignez la récolte ! Utilisez #memorecord sur vos publications Facebook et Instagram.
