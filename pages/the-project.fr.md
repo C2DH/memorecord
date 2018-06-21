@@ -6,13 +6,13 @@ link: /the-project/
 title: Le projet
 ---
 
-**Memorecord** est un projet d'histoire publique numérique. Il rassemble l**a participation collective et la recherche académique** pour offrir un autre regard sur l'histoire de la migration au Luxembourg. Le projet utilise des nouvelles technologies de la communication pour aborder l'histoire de manière participative.
+**Memorecord** est un projet d'histoire publique numérique. Il rassemble **la participation collective et la recherche académique** pour offrir un autre regard sur l'histoire des migrations liées au Luxembourg. Le projet utilise des nouvelles technologies de la communication pour aborder l'histoire de manière participative.
 
 
 
 <!-- more -->
 
-Cette expérience de *crowdsourcing* repose sur la participation communautaire. Pourquoi ne pas [**participer**](https://memorecord.uni.lu/fr/take-part/)? Vos mémoires et vos récits peuvent nous aider à mieux comprendre les aspects historiques de la migration au Luxembourg.
+Cette formule repose sur la participation communautaire. Pourquoi ne pas [**participer**](https://memorecord.uni.lu/fr/take-part/)? Vos mémoires et vos récits peuvent nous aider à mieux comprendre les aspects historiques de la migration au Luxembourg.
 
 
 ## **Contexte académique**
