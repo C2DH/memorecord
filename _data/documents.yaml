@@ -270,3 +270,49 @@
         url: 4a1215b208c54bec9ca7cff71e3064e8-24x24.jpg
         width: 24
         height: 24
+-
+    uid: 'https://www.instagram.com/p/BfqADiSgbhF/'
+    description: '"(...) Porque metade de mim é partida, mas a outra metade é saudade (...)" (Oswaldo Montenegro)'
+    image: 'https://memorecord.uni.lu/media/images/1723190050398779461_186536835.png'
+    url: 'https://www.instagram.com/p/BfqADiSgbhF/'
+    geometry:
+        type: Point
+        coordinates:
+            - -9.13030064976
+            - 38.7716973665
+    provider: instagram
+    date: '2018-02-26'
+    _id: 1356d10438084bbc8e04508b95f4bbb0
+    thumbnail:
+        url: 1356d10438084bbc8e04508b95f4bbb0-24x24.jpg
+        width: 24
+        height: 24
+-
+    uid: 'https://www.instagram.com/p/BiAA2ggnzkH/'
+    description: "\"(...) Quem soube ver o antes e o depois\nVerá sempre na data um talismã;\nHão-de vir nuvens, chuvas, luas, sóis,\nQue nunca esquecerá essa manhã! (...)\" (Joaquim Sustelo)"
+    image: 'https://memorecord.uni.lu/media/images/1765414799688022279_186536835.png'
+    url: 'https://www.instagram.com/p/BiAA2ggnzkH/'
+    geometry:
+        type: Point
+        coordinates:
+            - 6.13
+            - 49.6117
+    provider: instagram
+    date: '2018-04-25'
+    _id: af0c2f39fcf546cdaa75d374d7713037
+    thumbnail:
+        url: af0c2f39fcf546cdaa75d374d7713037-24x24.jpg
+        width: 24
+        height: 24
+-
+    uid: 'https://www.instagram.com/p/Bjsrm3Hn731/'
+    description: '"A sentiment much stronger than simply missing something or someone, saudade has been (and continues to be) the subject of something beautiful, heartbreaking art and literature. It seems to take on nuances from country to country and person to person" ("Lost in Translation: An Illustrated Compendium of Untranslatable Words", Ella Frances Sanders)'
+    image: 'https://memorecord.uni.lu/media/images/1796002137937788405_186536835.png'
+    url: 'https://www.instagram.com/p/Bjsrm3Hn731/'
+    provider: instagram
+    date: '2018-06-06'
+    _id: a2889d9adcaa4c21b0afeecc38660789
+    thumbnail:
+        url: a2889d9adcaa4c21b0afeecc38660789-24x24.jpg
+        width: 24
+        height: 24
