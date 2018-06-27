@@ -350,3 +350,14 @@
         url: 13203154111445d1b011fbc1dc5a85fc-24x24.jpg
         width: 24
         height: 24
+-
+    uid: 1077251395746417_1211733005631588
+    description: "O projecto Memorecord está a levar um cabo um projecto de recolha ligado à música e às migrações.\nPartilha uma música com o hashtag #memorecord.\nO álbum do Fausto, Para Além das Cordilheiras, será o melhor trabalho fonográfico português sobre a emigração."
+    image: 'https://memorecord.uni.lu/media/images/1077251395746417_1211733005631588.png'
+    url: 'https://www.youtube.com/attribution_link?a=KQ8PvmX8m4U&u=%2Fwatch%3Fv%3DaXVenMBPMRE%26feature%3Dshare'
+    provider: facebook
+    _id: 6da0f0db88c342319254fc119aa1bdad
+    thumbnail:
+        url: 6da0f0db88c342319254fc119aa1bdad-24x24.jpg
+        width: 24
+        height: 24
