@@ -498,3 +498,20 @@
         url: 4985d19be8bf4474897f9b18628a3284-24x24.jpg
         width: 24
         height: 24
+-
+    uid: 'https://www.instagram.com/p/BlL9QxjhVyP/'
+    description: 'Entendendo 100% de Luxemburguês com a menina ! Depois que ela contou sua história eu contei a minha (pretexto pra alimentar uma tese de mestrado sobre migração luxemburguesa) Cheguei no dia 9 de Maio (May, 9) nesse Grão Ducado de Luxemburgo - partindo do Brasil no dia anterior às 15 horas da tarde. Foram percorridos 14 mil km em 12 horas. Foi a primeira vez que cruzei a linha do Equador e primeira vez que pisei no Velho Mundo. Caminho inverso fez meu ascendente Luxemburguês Heinrich May (1853-1924) que mudou-se para o Brasil com 12 anos de idade com objetivo de refugiar-se de guerras,  hepidemias e misérias que assolavam a Europa na segunda metade do século XIX. Heinrich foi com sua mãe, tios e irmãos para viver em Angelina, Estado de Santa Catarina, Sul do Brasil e lá se casou com uma moça também Luxemburguesa chamada Margaretha Franz (1855-1915). Dentre os oito filhos que tiveram, um era meu bisavô João Nicolau May (1897-1970), que com a sueca naturalizada brasileira Gertrude Clara Felber deram origem ao meu avô materno Avelino May (1923-2015), que dizem que sou parecido com ele. Fui concebido no dia 09 de setembro de 1980, na cidade de Rio do Sul, SC onde passei boa parte de minha infância. Cresci e estudei história, direito e teatro. Me apaixonei pela história da  Anne Frank, motivado pela minha irmã ao ler sobre sua história incrível durante a II GM, que com apenas 13 anos escreveu seu diário - se tornando Best Seller após sua trágica morte num campo de morte nazista - e até hoje um dos livros mais lidos do mundo. Não pude deixar de visitar o cenário de onde toda essa trama aconteceu. Como não se  apaixonear pela história de outra mulher? Grã Charlotte,  determinante na resistência ao Reich, especialmente para a conformação de um grupo de países aliados no fronte Oeste de Berlim e na reconquista desse Grão Ducado. E Joana D''arc? Dispensa palavras! Há muita história sendo exalada a cada milímetro desse chão. Que bom poder me integrar e reintegrar a história de minha família com a história que ela deixou pra trás - num remoto passado.  Sonhos que um dia foram e sonhos que agora voltam. Saudades que ficam. DOUGLAS MAY #memorecord #jacksparrowbrazil'
+    image: 'https://memorecord.uni.lu/media/images/1822819907759594639_489409731.png'
+    url: 'https://www.instagram.com/p/BlL9QxjhVyP/'
+    geometry:
+        type: Point
+        coordinates:
+            - 6.13
+            - 49.6117
+    provider: instagram
+    date: '2018-07-13'
+    _id: 496f7024b08c4e31ad62b5e616110167
+    thumbnail:
+        url: 496f7024b08c4e31ad62b5e616110167-24x24.jpg
+        width: 24
+        height: 24
