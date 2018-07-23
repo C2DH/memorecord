@@ -567,3 +567,25 @@
         url: be2d01040d764ddd9cb2f303f76e55d8-24x24.jpg
         width: 24
         height: 24
+-
+    uid: 1077251395746417_1237827676355454
+    description: "#memorecord\nMy first photo in Lux. \nCame for my job interview and the Duchess was surrounded by \"rubbish\" people\nJuly 2014 (I think)"
+    image: 'https://memorecord.uni.lu/media/images/37336522_10157433095673765_163722332257386496_o.jpg'
+    url: 'https://www.facebook.com/10157446720133765/posts/10157433095783765'
+    provider: facebook
+    _id: dd148e7b5db14ea48d29195df616d9dd
+    thumbnail:
+        url: dd148e7b5db14ea48d29195df616d9dd-24x24.jpg
+        width: 24
+        height: 24
+-
+    uid: 1077251395746417_1240107059460849
+    description: 'In support to the beautiful PhD project of my friend  Anita Lucchesi it feels so good to revive my first year in Luxembourg .. It was 2010, it was EVS, and it was unforgetable cause I shared it with you all and specially with one of the most special persons in my life Saran Donga!  The video is long but so worth watching as it transports me back then and I remember the beautiful moments we had ❤️! #memorecord'
+    image: 'https://scontent.xx.fbcdn.net/v/t1.0-1/p100x100/10492001_10152517504034509_2648298537546750477_n.jpg?_nc_cat=0&oh=096e0b800416051a6457f6d04fd0cd1c&oe=5BD11A3B'
+    url: 'https://www.facebook.com/10155414678189509/posts/10156487204394509'
+    provider: facebook
+    _id: d82e01afaded4de291d20f2990e7d04c
+    thumbnail:
+        url: d82e01afaded4de291d20f2990e7d04c-24x24.jpg
+        width: 24
+        height: 24
