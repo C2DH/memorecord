@@ -760,7 +760,7 @@
 -
     uid: 'https://www.instagram.com/p/BpiHTAaFYvA/'
     description: 'Happy Bijaya Dashami 2075 once again to every one Dear, near and far either it be my family, friend or enemy 😁 🎉🎊 And also in Advance Happy Tihar 2075 as well people 😚😚 #jainepal🇳🇵 #nepalesedaughter #funtime #nepalesetradition #festival #nepaleseculture❤️❤️ #memorecord #dashain2075 #partytime and thankyou for the beautiful picture sumi,kaju and sapu 😍🙏'
-    image: 'https://memorecord.uni.lu/media/images/1901114085137025984_5978731130'
+    image: 'https://memorecord.uni.lu/media/images/1901114085137025984_5978731130.png'
     url: 'https://www.instagram.com/p/BpiHTAaFYvA/'
     geometry:
         type: Point
@@ -770,10 +770,14 @@
     provider: instagram
     date: '2018-10-29'
     _id: 9c59474476b346718d3a2377ef84525e
+    thumbnail:
+        url: 9c59474476b346718d3a2377ef84525e-24x24.jpg
+        width: 24
+        height: 24
 -
     uid: 'https://www.instagram.com/p/BnVkMfJnPKC/'
     description: 'Para memória futura: os nossos sorrisos e a luz incomparável de Lisboa ao fim da tarde ❤️. Até Dezembro, cidade maravilhosa!'
-    image: 'https://memorecord.uni.lu/media/images/1861553208742965890_186536835'
+    image: 'https://memorecord.uni.lu/media/images/1861553208742965890_186536835.png'
     url: 'https://www.instagram.com/p/BnVkMfJnPKC/'
     geometry:
         type: Point
@@ -783,17 +787,29 @@
     provider: instagram
     date: '2018-09-05'
     _id: 0d6d332185b84622950dd295c287050e
+    thumbnail:
+        url: 0d6d332185b84622950dd295c287050e-24x24.jpg
+        width: 24
+        height: 24
 -
     uid: 1077251395746417_1289281527876735
     description: "Realmente o Carlos Malta com sua generosidade e coração me mostrou que o meu caminho é esse mesmo. Nesses 10 meses em Lux, 5h na frente, todas as manhãs, sozinho em casa, me perguntava, o que eu vou fazer ? \nAlguns dias estava mais animado, outros nem tanto, mas ontem o Malta me deu esse presente que só os gigantes são capazes, de fazer mudar a chave no coração. \nMalta, te amo meu irmão 💙❤ \n#carlosmalta #dia #dockinabsolute #salaceciliameireles #salajazz #funarj #churrascariapalace #galetosats #embaixadadeluxembourg #consuladodeluxembourg #musicalx #luxembourg🇱🇺 #belgique #lux #nanodelux #nanofoto😎🇱🇺📸\n#memorecord"
-    image: 'https://memorecord.uni.lu/media/images/1077251395746417_1289281527876735'
+    image: 'https://memorecord.uni.lu/media/images/1077251395746417_1289281527876735.png'
     url: 'https://www.facebook.com/salaceciliameireles/'
     provider: facebook
     _id: 680363abd6904dc5a29afb347bf9c14d
+    thumbnail:
+        url: 680363abd6904dc5a29afb347bf9c14d-24x24.jpg
+        width: 24
+        height: 24
 -
     uid: 1077251395746417_1289281221210099
     description: 'Há 13 anos atrás eu fui a este mirante me despedir de Teresópolis no momento em que eu decidia partir pra o Rio de Janeiro, em direção à UFRJ (resiste!) para os cinco anos que viriam na formação em História. Eu olhava daqui a Guanabara, o miolo da cidade do caos e aquilo me fazia acelerar o coração de tal forma que até hoje não sei descrever. Neste verão (europeu) / inverno (brasileiro), voltei ao Soberbo pela primeira vez desde que saí do Brasil em 2015 e foi um reencontro muito interessante, em primeiro lugar, com a minha noção de “casa”, depois comigo mesma e, finalmente, com Teresópolis em si. O Rio continua sendo a “casa” que meu coração escolheu. É aquele burburinho ali que me aquece a alma, não tem jeito. É ali que eu recarrego as baterias, é ali que amo e que sinto, realmente, que cresço. Ali tem a minha curimba, ali tem a minha universidade-mãe, ali encontro meus amigos e amores. Teresópolis é cada vez mais esse trampolim pro mundo “Além do Soberbo” como me dizia Samuel Alves. Por alguma razão muito louca, o retorno às origens (se é que se pode dizer assim) traz à tona as evidências (solta um Chitaozinho e Xororó aí!) das mudanças, realça os contrastes. Este ano, quando ali estive, e olhei pra este horizonte abençoado pelo Dedo de Deus, tive certeza de que eu estava fazendo as coisas certas, que ter vindo para o Luxemburgo tinha feito total sentido e que o futuro ainda me reservava muitos outros retornos a este mirante para comtemplar a minha vida além-Soberbo e perceber como ela vem sendo bonita, apesar dos muitos percalços porque, né!? Há, sem dúvidas, muitas dores nos adeuses que temos que dar, e muitas saudades ficam, contudo, ter esse momento de “reality checking” e reencontro consigo mesmo parece que põe tudo isso em uma espécie de sintonia cordial. E este ano tudo se encaixou. Hoje, a um ano para o fim da formação que vim fazer no Luxemburgo pra a obtenção do doutorado eu olho esse passado de olhos molhados. A filha da dona de casa e do porteiro foi realmente além do Soberbo, e às vezes , nesse percurso eu me peguei esquecendo o quão não natural isso tudo foi/é pra mim. Hoje sou só gratidão pela oportunidade e me sinto privilegiada demais por estar traçando esse caminho. Não teria sido possível sem toda a resiliência que aprendi com minha mãe, Sandra Silva, e sem o amparo que a minha família do Colégio Único me deu. Hoje, olhando essa foto penso no poema de Konstantino Cafavis, Ítaca, penso no saudoso mestre, Prof. Manoel Salgado, e em tudo que aprendi com ele sobre história e viagens e tenho a mais plena certeza de que finalmente cheguei aqui onde estou, nesse “porto distante” por alguma razão especial, e me sinto bem aqui e agora. Não é o destino, é o percurso. Gratidão. #memorecord'
-    image: 'https://memorecord.uni.lu/media/images/1077251395746417_1289281221210099'
+    image: 'https://memorecord.uni.lu/media/images/1077251395746417_1289281221210099.png'
     url: 'https://www.facebook.com/photo.php?fbid=10156317149536519&set=p.10156317149536519&type=3'
     provider: facebook
     _id: 8d93b1aee23d4487827f3820a269759a
+    thumbnail:
+        url: 8d93b1aee23d4487827f3820a269759a-24x24.jpg
+        width: 24
+        height: 24
