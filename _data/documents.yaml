@@ -620,18 +620,7 @@
         width: 24
         height: 24
     date: '2018-07-27'
--
-    uid: 1077251395746417_1242678945870327
-    image: 'https://memorecord.uni.lu/media/images/1077251395746417_1242678945870327.png'
-    url: 'https://www.facebook.com/memorecordlux/photos/a.1077256445745912.1073741827.1077251395746417/1242678945870327/?type=3'
-    provider: facebook
-    _id: 5c63401adb8842da9e816e135cf113d8
-    thumbnail:
-        url: 5c63401adb8842da9e816e135cf113d8-24x24.jpg
-        width: 24
-        height: 24
-    date: '2018-07-25'
--
+
     uid: 'https://www.instagram.com/p/BmQ_lNaHT8i/'
     description: 'Um céu sem filtros ⛈️🌫️'
     image: 'https://memorecord.uni.lu/media/images/1842251881542139682_186536835.png'
